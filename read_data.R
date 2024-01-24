@@ -26,7 +26,7 @@ read_table <- function(table, agency_name) {
 read_report <- function(month) {
   agency_names <- c("DHS", "HPD", "HRA", "DYCD")
   
-  if(month %in% months[0:3]) {
+  if(month %in% months$month_year[0:3]) {
     report <- extract_tables(paste0("./temporary_housing_reports/temporary_housing_report_", month, ".pdf"),
                              pages = c(7:10))
   } else {
@@ -64,7 +64,13 @@ shelter_exits_clean <- all_months %>%
   left_join(months, by = c("period"="month_year")) %>% 
   rename("date" = ".") %>% 
   pivot_longer(cols = families_with_children:total_single_adults, names_to = "series", values_to = "exits") %>% 
-  left_join(field_validation, by = "facility_or_program_type")
+  mutate(date = case_when(
+    agency == "DHS" & (series == "families_with_children" | series == "adult_families") ~ date-months(1),
+    agency == "DHS" & series == "total_single_adults" ~ date-months(2),
+    T ~ date
+  )) %>% 
+  left_join(field_validation, by = "facility_or_program_type") %>% 
+  select(-data_period, period)
 
 write_csv(shelter_exits_clean, "data/shelter_exits.csv")
 
