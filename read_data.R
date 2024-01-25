@@ -8,11 +8,6 @@ current_date <- Sys.Date()
 months <-  seq(as.Date("2023-05-01"), current_date %m-% months(2), by = "1 month") %>%
   data.frame(month_year = format(., "%m_%Y"))
 
-report <- extract_tables(paste0("./temporary_housing_reports/temporary_housing_report_", month, "_", year, ".pdf"),
-                         pages = c(7:10))
-
-as.data.frame(report[[4]]) %>% remove_empty()
-
 
 read_table <- function(table, agency_name) {
     as.data.frame(table) %>% 
@@ -45,8 +40,6 @@ read_report("05_2023")
 
 all_months <- map_df(months$month_year, ~read_report(.x))
 
-#consider saving and switching to markdown here
-
 field_categorization <- all_months %>% 
   count(facility_or_program_type)
 
@@ -62,7 +55,8 @@ shelter_exits_clean <- all_months %>%
   mutate_at(vars(families_with_children:total_single_adults), ~as.numeric(if_else(.x == "<10", "0", .x))) %>% #replace under 10 with 0
   mutate_at(vars(facility_or_program_type), ~str_trim(str_replace_all(.x, "[0-3]", ""), side = "both")) %>%  #sometimes there are footnotes - can't be more than 8 or we lose S8
   left_join(months, by = c("period"="month_year")) %>% 
-  rename("date" = ".") %>% 
+  rename("date" = ".",
+         "report_date" = "period") %>% 
   pivot_longer(cols = families_with_children:total_single_adults, names_to = "series", values_to = "exits") %>% 
   mutate(date = case_when(
     agency == "DHS" & (series == "families_with_children" | series == "adult_families") ~ date-months(1),
@@ -70,7 +64,7 @@ shelter_exits_clean <- all_months %>%
     T ~ date
   )) %>% 
   left_join(field_validation, by = "facility_or_program_type") %>% 
-  select(-data_period, period)
+  select(-data_period)
 
 write_csv(shelter_exits_clean, "data/shelter_exits.csv")
 

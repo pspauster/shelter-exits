@@ -8,33 +8,41 @@ output: html_document
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(janitor)
+library(DT)
 
-knitr::opts_chunk$set(echo = TRUE, include = F, warning = F)
+knitr::opts_chunk$set(echo = FALSE, warning = F, message = F)
 ```
-
+# Total Exits
 ```{r}
-exits <- read_csv("data/shelter_exits.csv")
+exits <- read_csv("data/shelter_exits.csv") %>% 
+  filter(!is.na(category))
 ```
+## Total exits by category
 
+The large majority exiting are families with children or total_single adults
 ```{r}
 exits %>% 
   group_by(category, series) %>% 
   summarize(total_exits = sum(exits, na.rm = T)) %>% 
   pivot_wider(names_from = "series", values_from = "total_exits") %>%
   adorn_totals(where = c("row", "col")) %>% 
-  DT::datatable()
+  DT::datatable(options = list(iDisplayLength = 25))
 ```
-
+### Total exits by category, proportion of population
 ```{r}
 exits %>% 
   group_by(category, series) %>% 
   summarize(total_exits = sum(exits, na.rm = T)) %>% 
   pivot_wider(names_from = "series", values_from = "total_exits") %>%
   ungroup() %>% 
-  mutate_at(vars(adult_families:total_single_adults), ~.x/sum(.x, na.rm=T)*100) %>% 
-  DT::datatable()
+  mutate_at(vars(adult_families:total_single_adults), ~.x/sum(.x, na.rm=T)) %>% 
+  datatable(options = list(iDisplayLength = 25)) %>% 
+  formatPercentage(2:5)
 ```
 
+## Total exits by agency
+
+The huge majority of exits are from DHS
 ```{r}
 exits %>% 
   group_by(agency, series) %>% 
@@ -42,6 +50,7 @@ exits %>%
   pivot_wider(names_from = "series", values_from = "total_exits") %>%
   DT::datatable()
 ```
+# Monthly exits
 
 ```{r}
 exits %>% 
@@ -51,58 +60,65 @@ exits %>%
   adorn_totals(where = c("row", "col")) %>% 
   DT::datatable()
 
+exits %>% 
+  filter(agency == "DHS") %>% 
+  group_by(date, series) %>% 
+  summarize(total_exits = sum(exits, na.rm = T)) %>% 
+  ggplot()+
+  geom_line(aes(x=date, y = total_exits, color = series))+
+  labs(title = "DHS Total Exits by Month",
+       subtitle = "all series")
 
 ```
+
+## Families with children
+Unknown exits are rising in large numbers and now make up most of the exits from shelter
 
 ```{r}
-sum_month_category <- exits %>% 
+dhs_month_category <- exits %>% 
+  filter(agency == "DHS") %>% 
   group_by(date, category, series) %>% 
-  summarize(total_exits = sum(exits, na.rm = T)) %>% 
-  pivot_wider(names_from = "series", values_from = "total_exits") %>%
-  adorn_totals(where = c("row", "col")) %>% 
-  DT::datatable()
+  summarize(exits = sum(exits, na.rm = T)) %>% 
+  ungroup() %>% 
+  group_by(date, series) %>% 
+  mutate(per_exits = exits/sum(exits, na.rm = T)*100)
+  #pivot_wider(names_from = "series", values_from = "total_exits") %>%
+
+dhs_month_category %>% 
+  filter(series == "families_with_children") %>% 
+  ggplot()+
+  geom_line(aes(x=date, y = exits, color = category))+
+  labs(title = "DHS Total Exits by Type",
+       subtitle = "families with children")
+
+dhs_month_category %>% 
+  filter(series == "families_with_children") %>% 
+  ggplot()+
+  geom_line(aes(x=date, y = per_exits, color = category))+
+  labs(title = "DHS Percentage of Exits by Type",
+       subtitle = "families_with_children")
+```
+## Single Adults
+
+A huge proportion of single adults exiting go to unknown places
+
+```{r}
+dhs_month_category %>% 
+  filter(series == "total_single_adults") %>% 
+  ggplot()+
+  geom_area(aes(x=date, y = exits, fill = category))+
+  labs(title = "DHS Total Exits by Type",
+       subtitle = "total_single_adults")
+
+dhs_month_category %>% 
+  filter(series == "total_single_adults") %>% 
+  ggplot()+
+  geom_area(aes(x=date, y = per_exits, fill = category))+
+  labs(title = "DHS Percentage of Exits by Type",
+       subtitle = "total_single_adults")
+
+
 ```
 
-sum_month_category <- shelter_exits_clean %>% 
-  group_by(date, category) %>% 
-  summarize(total_families_exited = sum(families_with_children, na.rm = T)+sum(adult_families, na.rm = T),
-            families_with_children_exited = sum(families_with_children, na.rm = T),
-            adult_families_exited= sum(adult_families, na.rm = T),
-            single_adults_exited = sum(total_single_adults, na.rm = T)
-  )
 
 
-percentage_sum_month <- shelter_exits_clean %>% 
-  group_by(date, category) %>% 
-  summarize(total_families_exited = sum(families_with_children, na.rm = T)+sum(adult_families, na.rm = T),
-            families_with_children_exited = sum(families_with_children, na.rm = T),
-            adult_families_exited= sum(adult_families, na.rm = T),
-            single_adults_exited = sum(total_single_adults, na.rm = T)
-  ) %>% 
-  ungroup() %>% 
-  group_by(date) %>% 
-  mutate_at(vars(total_families_exited:single_adults_exited), ~.x/sum(.x, na.rm=T)*100)
-
-ggplot(percentage_sum_month) +
-  geom_line(mapping = aes(x=date, y=total_families_exited, color = category))
-
-sum_month_category %>% 
-  ggplot(aes(x = date, y = total_families_exited, color = category)) +
-  geom_line()
-
-ggplot(percentage_sum_month) +
-  geom_line(mapping = aes(x=date, y=single_adults_exited, color = category))
-
-sum_month_category %>% 
-  ggplot(aes(x = date, y = single_adults_exited, color = category)) +
-  geom_line()
-
-shelter_exits_clean %>% 
-  group_by(date) %>% 
-  summarize(
-            families_with_children_exited = sum(families_with_children, na.rm = T),
-            adult_families_exited= sum(adult_families, na.rm = T),
-            single_adults_exited = sum(total_single_adults, na.rm = T)) %>% 
-  pivot_longer(cols = families_with_children_exited:single_adults_exited, names_to = "series", values_to = "exits") %>% 
-  ggplot()+
-  geom_line(aes(x=date, y=exits, color = series))
