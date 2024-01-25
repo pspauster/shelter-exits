@@ -52,6 +52,8 @@ exits %>%
 ```
 # Monthly exits
 
+Note: DHS adult families are delayed 2 months, single adults delayed 1 month
+
 ```{r}
 exits %>% 
   group_by(date, series) %>% 
@@ -98,6 +100,7 @@ dhs_month_category %>%
   labs(title = "DHS Percentage of Exits by Type",
        subtitle = "families_with_children")
 ```
+
 ## Single Adults
 
 A huge proportion of single adults exiting go to unknown places
