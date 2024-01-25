@@ -1,4 +1,4 @@
-facility_or_program_type,agency,period,date,series,exits,category,notes
+facility_or_program_type,agency,report_date,date,series,exits,category,notes
 A private rental market apartment with no rental subsidy,DHS,05_2023,2023-04-01,families_with_children,27,Private market,NA
 A private rental market apartment with no rental subsidy,DHS,05_2023,2023-04-01,adult_families,0,Private market,NA
 A private rental market apartment with no rental subsidy,DHS,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Private market,NA
