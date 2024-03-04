@@ -51,9 +51,9 @@ field_validation <- xlsx::read.xlsx("field_names_validated.xlsx", sheetIndex = 1
 #need to lag families 1 month and lag single adults 2 months for DHS.
 shelter_exits_clean <- all_months %>% 
   select(-starts_with("x")) %>% 
-  mutate(across(.cols = everything(), .fns = ~as.character(str_replace_all(.x, ",|#", "")))) %>% 
+  mutate(across(.cols = -facility_or_program_type, .fns = ~as.character(str_replace_all(.x, ",|#", "")))) %>% 
   mutate_at(vars(families_with_children:total_single_adults), ~as.numeric(if_else(.x == "<10", "0", .x))) %>% #replace under 10 with 0
-  mutate_at(vars(facility_or_program_type), ~str_trim(str_replace_all(.x, "[0-3]", ""), side = "both")) %>%  #sometimes there are footnotes - can't be more than 8 or we lose S8
+  mutate_at(vars(facility_or_program_type), ~str_trim(str_replace_all(.x, "[0-3]$", ""), side = "both")) %>%  #sometimes there are footnotes - can't be more than 8 or we lose S8
   left_join(months, by = c("period"="month_year")) %>% 
   rename("date" = ".",
          "report_date" = "period") %>% 
