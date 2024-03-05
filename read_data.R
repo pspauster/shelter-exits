@@ -36,7 +36,7 @@ read_report <- function(month) {
   
 }
 
-read_report("05_2023")
+view(read_report("05_2023"))
 
 all_months <- map_df(months$month_year, ~read_report(.x))
 

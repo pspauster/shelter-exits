@@ -23,10 +23,10 @@ Moved back to vacated building,DHS,05_2023,2023-04-01,families_with_children,NA,
 Moved back to vacated building,DHS,05_2023,2023-04-01,adult_families,NA,Other,NA
 Moved back to vacated building,DHS,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DHS,05_2023,2023-03-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DHS,05_2023,2023-04-01,families_with_children,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,05_2023,2023-04-01,adult_families,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,05_2023,2023-05-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,05_2023,2023-03-01,total_single_adults,0,NA,NA
+Other affordable housing- 421-a affordable housing,DHS,05_2023,2023-04-01,families_with_children,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,05_2023,2023-04-01,adult_families,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,05_2023,2023-03-01,total_single_adults,0,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,05_2023,2023-04-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,05_2023,2023-04-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -119,10 +119,10 @@ Supportive housing,DHS,05_2023,2023-04-01,families_with_children,25,Supportive h
 Supportive housing,DHS,05_2023,2023-04-01,adult_families,0,Supportive housing,NA
 Supportive housing,DHS,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,DHS,05_2023,2023-03-01,total_single_adults,135,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,05_2023,2023-04-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,05_2023,2023-04-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,05_2023,2023-05-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,05_2023,2023-03-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,05_2023,2023-04-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,05_2023,2023-04-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,05_2023,2023-03-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,DHS,05_2023,2023-04-01,families_with_children,83,Unknown,NA
 Unknown or unable to validate,DHS,05_2023,2023-04-01,adult_families,14,Unknown,NA
 Unknown or unable to validate,DHS,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -163,10 +163,10 @@ Moved back to vacated building,HPD,05_2023,2023-05-01,families_with_children,0,O
 Moved back to vacated building,HPD,05_2023,2023-05-01,adult_families,0,Other,NA
 Moved back to vacated building,HPD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HPD,05_2023,2023-05-01,total_single_adults,0,Other,NA
-Other affordable housing- 4-a affordable housing,HPD,05_2023,2023-05-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,05_2023,2023-05-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,05_2023,2023-05-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HPD,05_2023,2023-05-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,05_2023,2023-05-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,05_2023,2023-05-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,05_2023,2023-05-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,05_2023,2023-05-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -243,10 +243,10 @@ Supportive housing,HPD,05_2023,2023-05-01,families_with_children,0,Supportive ho
 Supportive housing,HPD,05_2023,2023-05-01,adult_families,0,Supportive housing,NA
 Supportive housing,HPD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,HPD,05_2023,2023-05-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,05_2023,2023-05-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,05_2023,2023-05-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,05_2023,2023-05-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,05_2023,2023-05-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,05_2023,2023-05-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,05_2023,2023-05-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,HPD,05_2023,2023-05-01,families_with_children,0,Unknown,NA
 Unknown or unable to validate,HPD,05_2023,2023-05-01,adult_families,0,Unknown,NA
 Unknown or unable to validate,HPD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -315,10 +315,10 @@ Moved back to vacated building,HRA,05_2023,2023-05-01,families_with_children,NA,
 Moved back to vacated building,HRA,05_2023,2023-05-01,adult_families,NA,Other,NA
 Moved back to vacated building,HRA,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HRA,05_2023,2023-05-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,HRA,05_2023,2023-05-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,05_2023,2023-05-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,05_2023,2023-05-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,05_2023,2023-05-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HRA,05_2023,2023-05-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,05_2023,2023-05-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,05_2023,2023-05-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,05_2023,2023-05-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,05_2023,2023-05-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -371,10 +371,10 @@ Settings with higher levels of medical care- medical respite care,HRA,05_2023,20
 Settings with higher levels of medical care- medical respite care,HRA,05_2023,2023-05-01,adult_families,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,05_2023,2023-05-01,total_single_adults,NA,Medical care or rehabilitation facility,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,05_2023,2023-05-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,05_2023,2023-05-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,05_2023,2023-05-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,05_2023,2023-05-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,05_2023,2023-05-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,05_2023,2023-05-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,05_2023,2023-05-01,total_single_adults,NA,Transitional housing,NA
 A private rental market apartment with no rental subsidy,DYCD,05_2023,2023-05-01,families_with_children,NA,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,05_2023,2023-05-01,adult_families,0,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,0,Private market,NA
@@ -399,10 +399,10 @@ Moved back to vacated building,DYCD,05_2023,2023-05-01,families_with_children,NA
 Moved back to vacated building,DYCD,05_2023,2023-05-01,adult_families,NA,Other,NA
 Moved back to vacated building,DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DYCD,05_2023,2023-05-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DYCD,05_2023,2023-05-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,05_2023,2023-05-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,05_2023,2023-05-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,DYCD,05_2023,2023-05-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,05_2023,2023-05-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,05_2023,2023-05-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,05_2023,2023-05-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,05_2023,2023-05-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -479,10 +479,10 @@ Supportive housing,DYCD,05_2023,2023-05-01,families_with_children,NA,Supportive 
 Supportive housing,DYCD,05_2023,2023-05-01,adult_families,NA,Supportive housing,NA
 Supportive housing,DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,DYCD,05_2023,2023-05-01,total_single_adults,NA,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,05_2023,2023-05-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,05_2023,2023-05-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,05_2023,2023-05-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,05_2023,2023-05-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,05_2023,2023-05-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,05_2023,2023-05-01,total_single_adults,NA,Transitional housing,NA
 DYCD-funded Crisis Services Program,DYCD,05_2023,2023-05-01,families_with_children,NA,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,05_2023,2023-05-01,adult_families,0,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,0,Youth special program,NA
@@ -507,10 +507,10 @@ Youth detention center/Correctional facility,DYCD,05_2023,2023-05-01,families_wi
 Youth detention center/Correctional facility,DYCD,05_2023,2023-05-01,adult_families,NA,Other,Own category?
 Youth detention center/Correctional facility,DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Other,Own category?
 Youth detention center/Correctional facility,DYCD,05_2023,2023-05-01,total_single_adults,NA,Other,Own category?
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,05_2023,2023-05-01,families_with_children,NA,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,05_2023,2023-05-01,adult_families,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,05_2023,2023-05-01,total_single_adults,0,NA,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,05_2023,2023-05-01,families_with_children,NA,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,05_2023,2023-05-01,adult_families,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,05_2023,2023-05-01,total_single_adults,0,Affordable housing,NA
 Shared Living (Not friends or relatives),DYCD,05_2023,2023-05-01,families_with_children,NA,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,05_2023,2023-05-01,adult_families,NA,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,05_2023,2023-05-01,runaway_and_homeless_youth,NA,Other,What does this mean?
@@ -555,10 +555,10 @@ Moved back to vacated building,DHS,06_2023,2023-05-01,families_with_children,NA,
 Moved back to vacated building,DHS,06_2023,2023-05-01,adult_families,NA,Other,NA
 Moved back to vacated building,DHS,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DHS,06_2023,2023-04-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DHS,06_2023,2023-05-01,families_with_children,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,06_2023,2023-05-01,adult_families,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,06_2023,2023-06-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,06_2023,2023-04-01,total_single_adults,0,NA,NA
+Other affordable housing- 421-a affordable housing,DHS,06_2023,2023-05-01,families_with_children,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,06_2023,2023-05-01,adult_families,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,06_2023,2023-04-01,total_single_adults,0,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,06_2023,2023-05-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,06_2023,2023-05-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -651,10 +651,10 @@ Supportive housing,DHS,06_2023,2023-05-01,families_with_children,20,Supportive h
 Supportive housing,DHS,06_2023,2023-05-01,adult_families,0,Supportive housing,NA
 Supportive housing,DHS,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,DHS,06_2023,2023-04-01,total_single_adults,124,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,06_2023,2023-05-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,06_2023,2023-05-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,06_2023,2023-06-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,06_2023,2023-04-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,06_2023,2023-05-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,06_2023,2023-05-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,06_2023,2023-04-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,DHS,06_2023,2023-05-01,families_with_children,89,Unknown,NA
 Unknown or unable to validate,DHS,06_2023,2023-05-01,adult_families,12,Unknown,NA
 Unknown or unable to validate,DHS,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -695,10 +695,10 @@ Moved back to vacated building,HPD,06_2023,2023-06-01,families_with_children,0,O
 Moved back to vacated building,HPD,06_2023,2023-06-01,adult_families,0,Other,NA
 Moved back to vacated building,HPD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HPD,06_2023,2023-06-01,total_single_adults,0,Other,NA
-Other affordable housing- 4-a affordable housing,HPD,06_2023,2023-06-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,06_2023,2023-06-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,06_2023,2023-06-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HPD,06_2023,2023-06-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,06_2023,2023-06-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,06_2023,2023-06-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,06_2023,2023-06-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,06_2023,2023-06-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -775,10 +775,10 @@ Supportive housing,HPD,06_2023,2023-06-01,families_with_children,0,Supportive ho
 Supportive housing,HPD,06_2023,2023-06-01,adult_families,0,Supportive housing,NA
 Supportive housing,HPD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,HPD,06_2023,2023-06-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,06_2023,2023-06-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,06_2023,2023-06-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,06_2023,2023-06-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,06_2023,2023-06-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,06_2023,2023-06-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,06_2023,2023-06-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,HPD,06_2023,2023-06-01,families_with_children,0,Unknown,NA
 Unknown or unable to validate,HPD,06_2023,2023-06-01,adult_families,0,Unknown,NA
 Unknown or unable to validate,HPD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -847,10 +847,10 @@ Moved back to vacated building,HRA,06_2023,2023-06-01,families_with_children,NA,
 Moved back to vacated building,HRA,06_2023,2023-06-01,adult_families,NA,Other,NA
 Moved back to vacated building,HRA,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HRA,06_2023,2023-06-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,HRA,06_2023,2023-06-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,06_2023,2023-06-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,06_2023,2023-06-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,06_2023,2023-06-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HRA,06_2023,2023-06-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,06_2023,2023-06-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,06_2023,2023-06-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,06_2023,2023-06-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,06_2023,2023-06-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -903,10 +903,10 @@ Settings with higher levels of medical care- medical respite care,HRA,06_2023,20
 Settings with higher levels of medical care- medical respite care,HRA,06_2023,2023-06-01,adult_families,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,06_2023,2023-06-01,total_single_adults,NA,Medical care or rehabilitation facility,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,06_2023,2023-06-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,06_2023,2023-06-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,06_2023,2023-06-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,06_2023,2023-06-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,06_2023,2023-06-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,06_2023,2023-06-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,06_2023,2023-06-01,total_single_adults,NA,Transitional housing,NA
 A private rental market apartment with no rental subsidy,DYCD,06_2023,2023-06-01,families_with_children,NA,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,06_2023,2023-06-01,adult_families,0,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,0,Private market,NA
@@ -931,10 +931,10 @@ Moved back to vacated building,DYCD,06_2023,2023-06-01,families_with_children,NA
 Moved back to vacated building,DYCD,06_2023,2023-06-01,adult_families,NA,Other,NA
 Moved back to vacated building,DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DYCD,06_2023,2023-06-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DYCD,06_2023,2023-06-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,06_2023,2023-06-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,06_2023,2023-06-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,DYCD,06_2023,2023-06-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,06_2023,2023-06-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,06_2023,2023-06-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,06_2023,2023-06-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,06_2023,2023-06-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -1011,10 +1011,10 @@ Supportive housing,DYCD,06_2023,2023-06-01,families_with_children,NA,Supportive 
 Supportive housing,DYCD,06_2023,2023-06-01,adult_families,NA,Supportive housing,NA
 Supportive housing,DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,DYCD,06_2023,2023-06-01,total_single_adults,NA,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,06_2023,2023-06-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,06_2023,2023-06-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,06_2023,2023-06-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,06_2023,2023-06-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,06_2023,2023-06-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,06_2023,2023-06-01,total_single_adults,NA,Transitional housing,NA
 DYCD-funded Crisis Services Program,DYCD,06_2023,2023-06-01,families_with_children,NA,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,06_2023,2023-06-01,adult_families,0,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,0,Youth special program,NA
@@ -1039,10 +1039,10 @@ Youth detention center/Correctional facility,DYCD,06_2023,2023-06-01,families_wi
 Youth detention center/Correctional facility,DYCD,06_2023,2023-06-01,adult_families,NA,Other,Own category?
 Youth detention center/Correctional facility,DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Other,Own category?
 Youth detention center/Correctional facility,DYCD,06_2023,2023-06-01,total_single_adults,NA,Other,Own category?
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,06_2023,2023-06-01,families_with_children,NA,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,06_2023,2023-06-01,adult_families,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,06_2023,2023-06-01,total_single_adults,0,NA,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,06_2023,2023-06-01,families_with_children,NA,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,06_2023,2023-06-01,adult_families,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,06_2023,2023-06-01,total_single_adults,0,Affordable housing,NA
 Shared Living (Not friends or relatives),DYCD,06_2023,2023-06-01,families_with_children,NA,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,06_2023,2023-06-01,adult_families,NA,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,06_2023,2023-06-01,runaway_and_homeless_youth,NA,Other,What does this mean?
@@ -1087,10 +1087,10 @@ Moved back to vacated building,DHS,07_2023,2023-06-01,families_with_children,NA,
 Moved back to vacated building,DHS,07_2023,2023-06-01,adult_families,NA,Other,NA
 Moved back to vacated building,DHS,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DHS,07_2023,2023-05-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DHS,07_2023,2023-06-01,families_with_children,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,07_2023,2023-06-01,adult_families,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,07_2023,2023-07-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,07_2023,2023-05-01,total_single_adults,0,NA,NA
+Other affordable housing- 421-a affordable housing,DHS,07_2023,2023-06-01,families_with_children,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,07_2023,2023-06-01,adult_families,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,07_2023,2023-05-01,total_single_adults,0,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,07_2023,2023-06-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,07_2023,2023-06-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -1183,10 +1183,10 @@ Supportive housing,DHS,07_2023,2023-06-01,families_with_children,16,Supportive h
 Supportive housing,DHS,07_2023,2023-06-01,adult_families,0,Supportive housing,NA
 Supportive housing,DHS,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,DHS,07_2023,2023-05-01,total_single_adults,112,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,07_2023,2023-06-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,07_2023,2023-06-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,07_2023,2023-07-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,07_2023,2023-05-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,07_2023,2023-06-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,07_2023,2023-06-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,07_2023,2023-05-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,DHS,07_2023,2023-06-01,families_with_children,118,Unknown,NA
 Unknown or unable to validate,DHS,07_2023,2023-06-01,adult_families,0,Unknown,NA
 Unknown or unable to validate,DHS,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -1227,10 +1227,10 @@ Moved back to vacated building,HPD,07_2023,2023-07-01,families_with_children,0,O
 Moved back to vacated building,HPD,07_2023,2023-07-01,adult_families,0,Other,NA
 Moved back to vacated building,HPD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HPD,07_2023,2023-07-01,total_single_adults,0,Other,NA
-Other affordable housing- 4-a affordable housing,HPD,07_2023,2023-07-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,07_2023,2023-07-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,07_2023,2023-07-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HPD,07_2023,2023-07-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,07_2023,2023-07-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,07_2023,2023-07-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,07_2023,2023-07-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,07_2023,2023-07-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -1307,10 +1307,10 @@ Supportive housing,HPD,07_2023,2023-07-01,families_with_children,0,Supportive ho
 Supportive housing,HPD,07_2023,2023-07-01,adult_families,0,Supportive housing,NA
 Supportive housing,HPD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,HPD,07_2023,2023-07-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,07_2023,2023-07-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,07_2023,2023-07-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,07_2023,2023-07-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,07_2023,2023-07-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,07_2023,2023-07-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,07_2023,2023-07-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,HPD,07_2023,2023-07-01,families_with_children,0,Unknown,NA
 Unknown or unable to validate,HPD,07_2023,2023-07-01,adult_families,0,Unknown,NA
 Unknown or unable to validate,HPD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -1379,10 +1379,10 @@ Moved back to vacated building,HRA,07_2023,2023-07-01,families_with_children,NA,
 Moved back to vacated building,HRA,07_2023,2023-07-01,adult_families,NA,Other,NA
 Moved back to vacated building,HRA,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HRA,07_2023,2023-07-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,HRA,07_2023,2023-07-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,07_2023,2023-07-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,07_2023,2023-07-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,07_2023,2023-07-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HRA,07_2023,2023-07-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,07_2023,2023-07-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,07_2023,2023-07-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,07_2023,2023-07-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,07_2023,2023-07-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -1435,10 +1435,10 @@ Settings with higher levels of medical care- medical respite care,HRA,07_2023,20
 Settings with higher levels of medical care- medical respite care,HRA,07_2023,2023-07-01,adult_families,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,07_2023,2023-07-01,total_single_adults,NA,Medical care or rehabilitation facility,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,07_2023,2023-07-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,07_2023,2023-07-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,07_2023,2023-07-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,07_2023,2023-07-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,07_2023,2023-07-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,07_2023,2023-07-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,07_2023,2023-07-01,total_single_adults,NA,Transitional housing,NA
 A private rental market apartment with no rental subsidy,DYCD,07_2023,2023-07-01,families_with_children,NA,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,07_2023,2023-07-01,adult_families,0,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,0,Private market,NA
@@ -1463,10 +1463,10 @@ Moved back to vacated building,DYCD,07_2023,2023-07-01,families_with_children,NA
 Moved back to vacated building,DYCD,07_2023,2023-07-01,adult_families,NA,Other,NA
 Moved back to vacated building,DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DYCD,07_2023,2023-07-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DYCD,07_2023,2023-07-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,07_2023,2023-07-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,07_2023,2023-07-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,DYCD,07_2023,2023-07-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,07_2023,2023-07-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,07_2023,2023-07-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,07_2023,2023-07-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,07_2023,2023-07-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -1543,10 +1543,10 @@ Supportive housing,DYCD,07_2023,2023-07-01,families_with_children,NA,Supportive 
 Supportive housing,DYCD,07_2023,2023-07-01,adult_families,0,Supportive housing,NA
 Supportive housing,DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,0,Supportive housing,NA
 Supportive housing,DYCD,07_2023,2023-07-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,07_2023,2023-07-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,07_2023,2023-07-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,07_2023,2023-07-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,07_2023,2023-07-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,07_2023,2023-07-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,07_2023,2023-07-01,total_single_adults,NA,Transitional housing,NA
 DYCD-funded Crisis Services Program,DYCD,07_2023,2023-07-01,families_with_children,NA,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,07_2023,2023-07-01,adult_families,0,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,0,Youth special program,NA
@@ -1571,10 +1571,10 @@ Youth detention center/Correctional facility,DYCD,07_2023,2023-07-01,families_wi
 Youth detention center/Correctional facility,DYCD,07_2023,2023-07-01,adult_families,0,Other,Own category?
 Youth detention center/Correctional facility,DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,0,Other,Own category?
 Youth detention center/Correctional facility,DYCD,07_2023,2023-07-01,total_single_adults,0,Other,Own category?
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,07_2023,2023-07-01,families_with_children,NA,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,07_2023,2023-07-01,adult_families,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,07_2023,2023-07-01,total_single_adults,0,NA,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,07_2023,2023-07-01,families_with_children,NA,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,07_2023,2023-07-01,adult_families,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,07_2023,2023-07-01,total_single_adults,0,Affordable housing,NA
 Shared Living (Not friends or relatives),DYCD,07_2023,2023-07-01,families_with_children,NA,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,07_2023,2023-07-01,adult_families,0,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,07_2023,2023-07-01,runaway_and_homeless_youth,0,Other,What does this mean?
@@ -1619,10 +1619,10 @@ Moved back to vacated building,DHS,08_2023,2023-07-01,families_with_children,NA,
 Moved back to vacated building,DHS,08_2023,2023-07-01,adult_families,NA,Other,NA
 Moved back to vacated building,DHS,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DHS,08_2023,2023-06-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DHS,08_2023,2023-07-01,families_with_children,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,08_2023,2023-07-01,adult_families,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,08_2023,2023-08-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,08_2023,2023-06-01,total_single_adults,0,NA,NA
+Other affordable housing- 421-a affordable housing,DHS,08_2023,2023-07-01,families_with_children,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,08_2023,2023-07-01,adult_families,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,08_2023,2023-06-01,total_single_adults,0,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,08_2023,2023-07-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,08_2023,2023-07-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -1715,10 +1715,10 @@ Supportive housing,DHS,08_2023,2023-07-01,families_with_children,0,Supportive ho
 Supportive housing,DHS,08_2023,2023-07-01,adult_families,0,Supportive housing,NA
 Supportive housing,DHS,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,DHS,08_2023,2023-06-01,total_single_adults,100,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,08_2023,2023-07-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,08_2023,2023-07-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,08_2023,2023-08-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,08_2023,2023-06-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,08_2023,2023-07-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,08_2023,2023-07-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,08_2023,2023-06-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,DHS,08_2023,2023-07-01,families_with_children,183,Unknown,NA
 Unknown or unable to validate,DHS,08_2023,2023-07-01,adult_families,18,Unknown,NA
 Unknown or unable to validate,DHS,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -1759,10 +1759,10 @@ Moved back to vacated building,HPD,08_2023,2023-08-01,families_with_children,0,O
 Moved back to vacated building,HPD,08_2023,2023-08-01,adult_families,0,Other,NA
 Moved back to vacated building,HPD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HPD,08_2023,2023-08-01,total_single_adults,0,Other,NA
-Other affordable housing- 4-a affordable housing,HPD,08_2023,2023-08-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,08_2023,2023-08-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,08_2023,2023-08-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HPD,08_2023,2023-08-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,08_2023,2023-08-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,08_2023,2023-08-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,08_2023,2023-08-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,08_2023,2023-08-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -1839,10 +1839,10 @@ Supportive housing,HPD,08_2023,2023-08-01,families_with_children,0,Supportive ho
 Supportive housing,HPD,08_2023,2023-08-01,adult_families,0,Supportive housing,NA
 Supportive housing,HPD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,HPD,08_2023,2023-08-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,08_2023,2023-08-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,08_2023,2023-08-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,08_2023,2023-08-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,08_2023,2023-08-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,08_2023,2023-08-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,08_2023,2023-08-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,HPD,08_2023,2023-08-01,families_with_children,0,Unknown,NA
 Unknown or unable to validate,HPD,08_2023,2023-08-01,adult_families,0,Unknown,NA
 Unknown or unable to validate,HPD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -1911,10 +1911,10 @@ Moved back to vacated building,HRA,08_2023,2023-08-01,families_with_children,NA,
 Moved back to vacated building,HRA,08_2023,2023-08-01,adult_families,NA,Other,NA
 Moved back to vacated building,HRA,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HRA,08_2023,2023-08-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,HRA,08_2023,2023-08-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,08_2023,2023-08-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,08_2023,2023-08-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,08_2023,2023-08-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HRA,08_2023,2023-08-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,08_2023,2023-08-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,08_2023,2023-08-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,08_2023,2023-08-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,08_2023,2023-08-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -1967,10 +1967,10 @@ Settings with higher levels of medical care- medical respite care,HRA,08_2023,20
 Settings with higher levels of medical care- medical respite care,HRA,08_2023,2023-08-01,adult_families,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,08_2023,2023-08-01,total_single_adults,NA,Medical care or rehabilitation facility,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,08_2023,2023-08-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,08_2023,2023-08-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,08_2023,2023-08-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,08_2023,2023-08-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,08_2023,2023-08-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,08_2023,2023-08-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,08_2023,2023-08-01,total_single_adults,NA,Transitional housing,NA
 A private rental market apartment with no rental subsidy,DYCD,08_2023,2023-08-01,families_with_children,NA,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,08_2023,2023-08-01,adult_families,0,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,0,Private market,NA
@@ -1995,10 +1995,10 @@ Moved back to vacated building,DYCD,08_2023,2023-08-01,families_with_children,NA
 Moved back to vacated building,DYCD,08_2023,2023-08-01,adult_families,NA,Other,NA
 Moved back to vacated building,DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DYCD,08_2023,2023-08-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DYCD,08_2023,2023-08-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,08_2023,2023-08-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,08_2023,2023-08-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,DYCD,08_2023,2023-08-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,08_2023,2023-08-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,08_2023,2023-08-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,08_2023,2023-08-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,08_2023,2023-08-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -2075,10 +2075,10 @@ Supportive housing,DYCD,08_2023,2023-08-01,families_with_children,NA,Supportive 
 Supportive housing,DYCD,08_2023,2023-08-01,adult_families,0,Supportive housing,NA
 Supportive housing,DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,0,Supportive housing,NA
 Supportive housing,DYCD,08_2023,2023-08-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,08_2023,2023-08-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,08_2023,2023-08-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,08_2023,2023-08-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,08_2023,2023-08-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,08_2023,2023-08-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,08_2023,2023-08-01,total_single_adults,NA,Transitional housing,NA
 DYCD-funded Crisis Services Program,DYCD,08_2023,2023-08-01,families_with_children,NA,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,08_2023,2023-08-01,adult_families,0,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,0,Youth special program,NA
@@ -2103,10 +2103,10 @@ Youth detention center/Correctional facility,DYCD,08_2023,2023-08-01,families_wi
 Youth detention center/Correctional facility,DYCD,08_2023,2023-08-01,adult_families,0,Other,Own category?
 Youth detention center/Correctional facility,DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,0,Other,Own category?
 Youth detention center/Correctional facility,DYCD,08_2023,2023-08-01,total_single_adults,0,Other,Own category?
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,08_2023,2023-08-01,families_with_children,NA,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,08_2023,2023-08-01,adult_families,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,08_2023,2023-08-01,total_single_adults,0,NA,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,08_2023,2023-08-01,families_with_children,NA,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,08_2023,2023-08-01,adult_families,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,08_2023,2023-08-01,total_single_adults,0,Affordable housing,NA
 Shared Living (Not friends or relatives),DYCD,08_2023,2023-08-01,families_with_children,NA,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,08_2023,2023-08-01,adult_families,0,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,08_2023,2023-08-01,runaway_and_homeless_youth,0,Other,What does this mean?
@@ -2151,10 +2151,10 @@ Moved back to vacated building,DHS,09_2023,2023-08-01,families_with_children,NA,
 Moved back to vacated building,DHS,09_2023,2023-08-01,adult_families,NA,Other,NA
 Moved back to vacated building,DHS,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DHS,09_2023,2023-07-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DHS,09_2023,2023-08-01,families_with_children,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,09_2023,2023-08-01,adult_families,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,09_2023,2023-09-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,09_2023,2023-07-01,total_single_adults,0,NA,NA
+Other affordable housing- 421-a affordable housing,DHS,09_2023,2023-08-01,families_with_children,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,09_2023,2023-08-01,adult_families,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,09_2023,2023-07-01,total_single_adults,0,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,09_2023,2023-08-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,09_2023,2023-08-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -2247,10 +2247,10 @@ Supportive housing,DHS,09_2023,2023-08-01,families_with_children,10,Supportive h
 Supportive housing,DHS,09_2023,2023-08-01,adult_families,0,Supportive housing,NA
 Supportive housing,DHS,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,DHS,09_2023,2023-07-01,total_single_adults,111,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,09_2023,2023-08-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,09_2023,2023-08-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,09_2023,2023-09-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,09_2023,2023-07-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,09_2023,2023-08-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,09_2023,2023-08-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,09_2023,2023-07-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,DHS,09_2023,2023-08-01,families_with_children,252,Unknown,NA
 Unknown or unable to validate,DHS,09_2023,2023-08-01,adult_families,25,Unknown,NA
 Unknown or unable to validate,DHS,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -2291,10 +2291,10 @@ Moved back to vacated building,HPD,09_2023,2023-09-01,families_with_children,0,O
 Moved back to vacated building,HPD,09_2023,2023-09-01,adult_families,0,Other,NA
 Moved back to vacated building,HPD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HPD,09_2023,2023-09-01,total_single_adults,0,Other,NA
-Other affordable housing- 4-a affordable housing,HPD,09_2023,2023-09-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,09_2023,2023-09-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,09_2023,2023-09-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HPD,09_2023,2023-09-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,09_2023,2023-09-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,09_2023,2023-09-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,09_2023,2023-09-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,09_2023,2023-09-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -2371,10 +2371,10 @@ Supportive housing,HPD,09_2023,2023-09-01,families_with_children,0,Supportive ho
 Supportive housing,HPD,09_2023,2023-09-01,adult_families,0,Supportive housing,NA
 Supportive housing,HPD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,HPD,09_2023,2023-09-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,09_2023,2023-09-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,09_2023,2023-09-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,09_2023,2023-09-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,09_2023,2023-09-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,09_2023,2023-09-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,09_2023,2023-09-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,HPD,09_2023,2023-09-01,families_with_children,0,Unknown,NA
 Unknown or unable to validate,HPD,09_2023,2023-09-01,adult_families,0,Unknown,NA
 Unknown or unable to validate,HPD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -2443,10 +2443,10 @@ Moved back to vacated building,HRA,09_2023,2023-09-01,families_with_children,NA,
 Moved back to vacated building,HRA,09_2023,2023-09-01,adult_families,NA,Other,NA
 Moved back to vacated building,HRA,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HRA,09_2023,2023-09-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,HRA,09_2023,2023-09-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,09_2023,2023-09-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,09_2023,2023-09-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,09_2023,2023-09-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HRA,09_2023,2023-09-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,09_2023,2023-09-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,09_2023,2023-09-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,09_2023,2023-09-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,09_2023,2023-09-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -2499,10 +2499,10 @@ Settings with higher levels of medical care- medical respite care,HRA,09_2023,20
 Settings with higher levels of medical care- medical respite care,HRA,09_2023,2023-09-01,adult_families,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,09_2023,2023-09-01,total_single_adults,NA,Medical care or rehabilitation facility,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,09_2023,2023-09-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,09_2023,2023-09-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,09_2023,2023-09-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,09_2023,2023-09-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,09_2023,2023-09-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,09_2023,2023-09-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,09_2023,2023-09-01,total_single_adults,NA,Transitional housing,NA
 A private rental market apartment with no rental subsidy,DYCD,09_2023,2023-09-01,families_with_children,NA,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,09_2023,2023-09-01,adult_families,0,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,0,Private market,NA
@@ -2527,10 +2527,10 @@ Moved back to vacated building,DYCD,09_2023,2023-09-01,families_with_children,NA
 Moved back to vacated building,DYCD,09_2023,2023-09-01,adult_families,NA,Other,NA
 Moved back to vacated building,DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DYCD,09_2023,2023-09-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DYCD,09_2023,2023-09-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,09_2023,2023-09-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,09_2023,2023-09-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,DYCD,09_2023,2023-09-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,09_2023,2023-09-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,09_2023,2023-09-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,09_2023,2023-09-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,09_2023,2023-09-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -2607,10 +2607,10 @@ Supportive housing,DYCD,09_2023,2023-09-01,families_with_children,NA,Supportive 
 Supportive housing,DYCD,09_2023,2023-09-01,adult_families,0,Supportive housing,NA
 Supportive housing,DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,0,Supportive housing,NA
 Supportive housing,DYCD,09_2023,2023-09-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,09_2023,2023-09-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,09_2023,2023-09-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,09_2023,2023-09-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,09_2023,2023-09-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,09_2023,2023-09-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,09_2023,2023-09-01,total_single_adults,NA,Transitional housing,NA
 DYCD-funded Crisis Services Program,DYCD,09_2023,2023-09-01,families_with_children,NA,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,09_2023,2023-09-01,adult_families,0,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,0,Youth special program,NA
@@ -2635,10 +2635,10 @@ Youth detention center/Correctional facility,DYCD,09_2023,2023-09-01,families_wi
 Youth detention center/Correctional facility,DYCD,09_2023,2023-09-01,adult_families,NA,Other,Own category?
 Youth detention center/Correctional facility,DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,NA,Other,Own category?
 Youth detention center/Correctional facility,DYCD,09_2023,2023-09-01,total_single_adults,NA,Other,Own category?
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,09_2023,2023-09-01,families_with_children,NA,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,09_2023,2023-09-01,adult_families,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,09_2023,2023-09-01,total_single_adults,0,NA,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,09_2023,2023-09-01,families_with_children,NA,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,09_2023,2023-09-01,adult_families,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,09_2023,2023-09-01,total_single_adults,0,Affordable housing,NA
 Shared Living (Not friends or relatives),DYCD,09_2023,2023-09-01,families_with_children,NA,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,09_2023,2023-09-01,adult_families,0,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,09_2023,2023-09-01,runaway_and_homeless_youth,0,Other,What does this mean?
@@ -2683,10 +2683,10 @@ Moved back to vacated building,DHS,10_2023,2023-09-01,families_with_children,NA,
 Moved back to vacated building,DHS,10_2023,2023-09-01,adult_families,NA,Other,NA
 Moved back to vacated building,DHS,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DHS,10_2023,2023-08-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DHS,10_2023,2023-09-01,families_with_children,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,10_2023,2023-09-01,adult_families,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,10_2023,2023-10-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,10_2023,2023-08-01,total_single_adults,0,NA,NA
+Other affordable housing- 421-a affordable housing,DHS,10_2023,2023-09-01,families_with_children,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,10_2023,2023-09-01,adult_families,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,10_2023,2023-08-01,total_single_adults,0,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,10_2023,2023-09-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,10_2023,2023-09-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -2779,10 +2779,10 @@ Supportive housing,DHS,10_2023,2023-09-01,families_with_children,0,Supportive ho
 Supportive housing,DHS,10_2023,2023-09-01,adult_families,0,Supportive housing,NA
 Supportive housing,DHS,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,DHS,10_2023,2023-08-01,total_single_adults,144,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,10_2023,2023-09-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,10_2023,2023-09-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,10_2023,2023-10-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,10_2023,2023-08-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,10_2023,2023-09-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,10_2023,2023-09-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,10_2023,2023-08-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,DHS,10_2023,2023-09-01,families_with_children,273,Unknown,NA
 Unknown or unable to validate,DHS,10_2023,2023-09-01,adult_families,14,Unknown,NA
 Unknown or unable to validate,DHS,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -2823,10 +2823,10 @@ Moved back to vacated building,HPD,10_2023,2023-10-01,families_with_children,0,O
 Moved back to vacated building,HPD,10_2023,2023-10-01,adult_families,0,Other,NA
 Moved back to vacated building,HPD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HPD,10_2023,2023-10-01,total_single_adults,0,Other,NA
-Other affordable housing- 4-a affordable housing,HPD,10_2023,2023-10-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,10_2023,2023-10-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,10_2023,2023-10-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HPD,10_2023,2023-10-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,10_2023,2023-10-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,10_2023,2023-10-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,10_2023,2023-10-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,10_2023,2023-10-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -2903,10 +2903,10 @@ Supportive housing,HPD,10_2023,2023-10-01,families_with_children,0,Supportive ho
 Supportive housing,HPD,10_2023,2023-10-01,adult_families,0,Supportive housing,NA
 Supportive housing,HPD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,HPD,10_2023,2023-10-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,10_2023,2023-10-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,10_2023,2023-10-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,10_2023,2023-10-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,10_2023,2023-10-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,10_2023,2023-10-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,10_2023,2023-10-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,HPD,10_2023,2023-10-01,families_with_children,0,Unknown,NA
 Unknown or unable to validate,HPD,10_2023,2023-10-01,adult_families,0,Unknown,NA
 Unknown or unable to validate,HPD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -2975,10 +2975,10 @@ Moved back to vacated building,HRA,10_2023,2023-10-01,families_with_children,NA,
 Moved back to vacated building,HRA,10_2023,2023-10-01,adult_families,NA,Other,NA
 Moved back to vacated building,HRA,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HRA,10_2023,2023-10-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,HRA,10_2023,2023-10-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,10_2023,2023-10-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,10_2023,2023-10-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,10_2023,2023-10-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HRA,10_2023,2023-10-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,10_2023,2023-10-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,10_2023,2023-10-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,10_2023,2023-10-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,10_2023,2023-10-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -3031,10 +3031,10 @@ Settings with higher levels of medical care- medical respite care,HRA,10_2023,20
 Settings with higher levels of medical care- medical respite care,HRA,10_2023,2023-10-01,adult_families,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,10_2023,2023-10-01,total_single_adults,NA,Medical care or rehabilitation facility,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,10_2023,2023-10-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,10_2023,2023-10-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,10_2023,2023-10-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,10_2023,2023-10-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,10_2023,2023-10-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,10_2023,2023-10-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,10_2023,2023-10-01,total_single_adults,NA,Transitional housing,NA
 A private rental market apartment with no rental subsidy,DYCD,10_2023,2023-10-01,families_with_children,NA,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,10_2023,2023-10-01,adult_families,0,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,0,Private market,NA
@@ -3059,10 +3059,10 @@ Moved back to vacated building,DYCD,10_2023,2023-10-01,families_with_children,NA
 Moved back to vacated building,DYCD,10_2023,2023-10-01,adult_families,NA,Other,NA
 Moved back to vacated building,DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DYCD,10_2023,2023-10-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DYCD,10_2023,2023-10-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,10_2023,2023-10-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,10_2023,2023-10-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,DYCD,10_2023,2023-10-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,10_2023,2023-10-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,10_2023,2023-10-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,10_2023,2023-10-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,10_2023,2023-10-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -3139,10 +3139,10 @@ Supportive housing,DYCD,10_2023,2023-10-01,families_with_children,NA,Supportive 
 Supportive housing,DYCD,10_2023,2023-10-01,adult_families,0,Supportive housing,NA
 Supportive housing,DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,0,Supportive housing,NA
 Supportive housing,DYCD,10_2023,2023-10-01,total_single_adults,13,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,10_2023,2023-10-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,10_2023,2023-10-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,10_2023,2023-10-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,10_2023,2023-10-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,10_2023,2023-10-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,10_2023,2023-10-01,total_single_adults,NA,Transitional housing,NA
 DYCD-funded Crisis Services Program,DYCD,10_2023,2023-10-01,families_with_children,NA,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,10_2023,2023-10-01,adult_families,0,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,0,Youth special program,NA
@@ -3167,10 +3167,10 @@ Youth detention center/Correctional facility,DYCD,10_2023,2023-10-01,families_wi
 Youth detention center/Correctional facility,DYCD,10_2023,2023-10-01,adult_families,0,Other,Own category?
 Youth detention center/Correctional facility,DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,0,Other,Own category?
 Youth detention center/Correctional facility,DYCD,10_2023,2023-10-01,total_single_adults,0,Other,Own category?
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,10_2023,2023-10-01,families_with_children,NA,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,10_2023,2023-10-01,adult_families,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,10_2023,2023-10-01,total_single_adults,0,NA,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,10_2023,2023-10-01,families_with_children,NA,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,10_2023,2023-10-01,adult_families,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,10_2023,2023-10-01,total_single_adults,0,Affordable housing,NA
 Shared Living (Not friends or relatives),DYCD,10_2023,2023-10-01,families_with_children,NA,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,10_2023,2023-10-01,adult_families,0,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,10_2023,2023-10-01,runaway_and_homeless_youth,0,Other,What does this mean?
@@ -3215,10 +3215,10 @@ Moved back to vacated building,DHS,11_2023,2023-10-01,families_with_children,NA,
 Moved back to vacated building,DHS,11_2023,2023-10-01,adult_families,NA,Other,NA
 Moved back to vacated building,DHS,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DHS,11_2023,2023-09-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DHS,11_2023,2023-10-01,families_with_children,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,11_2023,2023-10-01,adult_families,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,11_2023,2023-11-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,11_2023,2023-09-01,total_single_adults,0,NA,NA
+Other affordable housing- 421-a affordable housing,DHS,11_2023,2023-10-01,families_with_children,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,11_2023,2023-10-01,adult_families,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,11_2023,2023-09-01,total_single_adults,0,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,11_2023,2023-10-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,11_2023,2023-10-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -3311,10 +3311,10 @@ Supportive housing,DHS,11_2023,2023-10-01,families_with_children,0,Supportive ho
 Supportive housing,DHS,11_2023,2023-10-01,adult_families,0,Supportive housing,NA
 Supportive housing,DHS,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,DHS,11_2023,2023-09-01,total_single_adults,146,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,11_2023,2023-10-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,11_2023,2023-10-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,11_2023,2023-11-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,11_2023,2023-09-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,11_2023,2023-10-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,11_2023,2023-10-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,11_2023,2023-09-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,DHS,11_2023,2023-10-01,families_with_children,339,Unknown,NA
 Unknown or unable to validate,DHS,11_2023,2023-10-01,adult_families,18,Unknown,NA
 Unknown or unable to validate,DHS,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -3355,10 +3355,10 @@ Moved back to vacated building,HPD,11_2023,2023-11-01,families_with_children,0,O
 Moved back to vacated building,HPD,11_2023,2023-11-01,adult_families,0,Other,NA
 Moved back to vacated building,HPD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HPD,11_2023,2023-11-01,total_single_adults,0,Other,NA
-Other affordable housing- 4-a affordable housing,HPD,11_2023,2023-11-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,11_2023,2023-11-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,11_2023,2023-11-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HPD,11_2023,2023-11-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,11_2023,2023-11-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,11_2023,2023-11-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,11_2023,2023-11-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,11_2023,2023-11-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -3435,10 +3435,10 @@ Supportive housing,HPD,11_2023,2023-11-01,families_with_children,0,Supportive ho
 Supportive housing,HPD,11_2023,2023-11-01,adult_families,0,Supportive housing,NA
 Supportive housing,HPD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,HPD,11_2023,2023-11-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,11_2023,2023-11-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,11_2023,2023-11-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,11_2023,2023-11-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,11_2023,2023-11-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,11_2023,2023-11-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,11_2023,2023-11-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,HPD,11_2023,2023-11-01,families_with_children,0,Unknown,NA
 Unknown or unable to validate,HPD,11_2023,2023-11-01,adult_families,0,Unknown,NA
 Unknown or unable to validate,HPD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -3507,10 +3507,10 @@ Moved back to vacated building,HRA,11_2023,2023-11-01,families_with_children,NA,
 Moved back to vacated building,HRA,11_2023,2023-11-01,adult_families,NA,Other,NA
 Moved back to vacated building,HRA,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HRA,11_2023,2023-11-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,HRA,11_2023,2023-11-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,11_2023,2023-11-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,11_2023,2023-11-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,11_2023,2023-11-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HRA,11_2023,2023-11-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,11_2023,2023-11-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,11_2023,2023-11-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,11_2023,2023-11-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,11_2023,2023-11-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -3563,10 +3563,10 @@ Settings with higher levels of medical care- medical respite care,HRA,11_2023,20
 Settings with higher levels of medical care- medical respite care,HRA,11_2023,2023-11-01,adult_families,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,11_2023,2023-11-01,total_single_adults,NA,Medical care or rehabilitation facility,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,11_2023,2023-11-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,11_2023,2023-11-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,11_2023,2023-11-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,11_2023,2023-11-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,11_2023,2023-11-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,11_2023,2023-11-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,11_2023,2023-11-01,total_single_adults,NA,Transitional housing,NA
 A private rental market apartment with no rental subsidy,DYCD,11_2023,2023-11-01,families_with_children,NA,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,11_2023,2023-11-01,adult_families,0,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,0,Private market,NA
@@ -3591,10 +3591,10 @@ Moved back to vacated building,DYCD,11_2023,2023-11-01,families_with_children,NA
 Moved back to vacated building,DYCD,11_2023,2023-11-01,adult_families,NA,Other,NA
 Moved back to vacated building,DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DYCD,11_2023,2023-11-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DYCD,11_2023,2023-11-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,11_2023,2023-11-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,11_2023,2023-11-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,DYCD,11_2023,2023-11-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,11_2023,2023-11-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,11_2023,2023-11-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,11_2023,2023-11-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,11_2023,2023-11-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -3671,10 +3671,10 @@ Supportive housing,DYCD,11_2023,2023-11-01,families_with_children,NA,Supportive 
 Supportive housing,DYCD,11_2023,2023-11-01,adult_families,0,Supportive housing,NA
 Supportive housing,DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,0,Supportive housing,NA
 Supportive housing,DYCD,11_2023,2023-11-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,11_2023,2023-11-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,11_2023,2023-11-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,11_2023,2023-11-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,11_2023,2023-11-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,11_2023,2023-11-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,11_2023,2023-11-01,total_single_adults,NA,Transitional housing,NA
 DYCD-funded Crisis Services Program,DYCD,11_2023,2023-11-01,families_with_children,NA,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,11_2023,2023-11-01,adult_families,0,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,0,Youth special program,NA
@@ -3699,10 +3699,10 @@ Youth detention center/Correctional facility,DYCD,11_2023,2023-11-01,families_wi
 Youth detention center/Correctional facility,DYCD,11_2023,2023-11-01,adult_families,0,Other,Own category?
 Youth detention center/Correctional facility,DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,0,Other,Own category?
 Youth detention center/Correctional facility,DYCD,11_2023,2023-11-01,total_single_adults,0,Other,Own category?
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,11_2023,2023-11-01,families_with_children,NA,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,11_2023,2023-11-01,adult_families,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,11_2023,2023-11-01,total_single_adults,0,NA,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,11_2023,2023-11-01,families_with_children,NA,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,11_2023,2023-11-01,adult_families,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,11_2023,2023-11-01,total_single_adults,0,Affordable housing,NA
 Shared Living (Not friends or relatives),DYCD,11_2023,2023-11-01,families_with_children,NA,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,11_2023,2023-11-01,adult_families,0,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,11_2023,2023-11-01,runaway_and_homeless_youth,0,Other,What does this mean?
@@ -3747,10 +3747,10 @@ Moved back to vacated building,DHS,12_2023,2023-11-01,families_with_children,NA,
 Moved back to vacated building,DHS,12_2023,2023-11-01,adult_families,NA,Other,NA
 Moved back to vacated building,DHS,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DHS,12_2023,2023-10-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DHS,12_2023,2023-11-01,families_with_children,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,12_2023,2023-11-01,adult_families,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,12_2023,2023-12-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,12_2023,2023-10-01,total_single_adults,0,NA,NA
+Other affordable housing- 421-a affordable housing,DHS,12_2023,2023-11-01,families_with_children,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,12_2023,2023-11-01,adult_families,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,12_2023,2023-10-01,total_single_adults,0,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,12_2023,2023-11-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,12_2023,2023-11-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -3843,10 +3843,10 @@ Supportive housing,DHS,12_2023,2023-11-01,families_with_children,0,Supportive ho
 Supportive housing,DHS,12_2023,2023-11-01,adult_families,0,Supportive housing,NA
 Supportive housing,DHS,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,DHS,12_2023,2023-10-01,total_single_adults,147,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,12_2023,2023-11-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,12_2023,2023-11-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,12_2023,2023-12-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,12_2023,2023-10-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,12_2023,2023-11-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,12_2023,2023-11-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,12_2023,2023-10-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,DHS,12_2023,2023-11-01,families_with_children,314,Unknown,NA
 Unknown or unable to validate,DHS,12_2023,2023-11-01,adult_families,29,Unknown,NA
 Unknown or unable to validate,DHS,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -3887,10 +3887,10 @@ Moved back to vacated building,HPD,12_2023,2023-12-01,families_with_children,0,O
 Moved back to vacated building,HPD,12_2023,2023-12-01,adult_families,0,Other,NA
 Moved back to vacated building,HPD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HPD,12_2023,2023-12-01,total_single_adults,0,Other,NA
-Other affordable housing- 4-a affordable housing,HPD,12_2023,2023-12-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,12_2023,2023-12-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,12_2023,2023-12-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HPD,12_2023,2023-12-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,12_2023,2023-12-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,12_2023,2023-12-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,12_2023,2023-12-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,12_2023,2023-12-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -3967,10 +3967,10 @@ Supportive housing,HPD,12_2023,2023-12-01,families_with_children,0,Supportive ho
 Supportive housing,HPD,12_2023,2023-12-01,adult_families,0,Supportive housing,NA
 Supportive housing,HPD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,HPD,12_2023,2023-12-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,12_2023,2023-12-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,12_2023,2023-12-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,12_2023,2023-12-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,12_2023,2023-12-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,12_2023,2023-12-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,12_2023,2023-12-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,HPD,12_2023,2023-12-01,families_with_children,0,Unknown,NA
 Unknown or unable to validate,HPD,12_2023,2023-12-01,adult_families,0,Unknown,NA
 Unknown or unable to validate,HPD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -4039,10 +4039,10 @@ Moved back to vacated building,HRA,12_2023,2023-12-01,families_with_children,NA,
 Moved back to vacated building,HRA,12_2023,2023-12-01,adult_families,NA,Other,NA
 Moved back to vacated building,HRA,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HRA,12_2023,2023-12-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,HRA,12_2023,2023-12-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,12_2023,2023-12-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,12_2023,2023-12-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,12_2023,2023-12-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HRA,12_2023,2023-12-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,12_2023,2023-12-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,12_2023,2023-12-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,12_2023,2023-12-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,12_2023,2023-12-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -4095,10 +4095,10 @@ Settings with higher levels of medical care- medical respite care,HRA,12_2023,20
 Settings with higher levels of medical care- medical respite care,HRA,12_2023,2023-12-01,adult_families,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,12_2023,2023-12-01,total_single_adults,NA,Medical care or rehabilitation facility,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,12_2023,2023-12-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,12_2023,2023-12-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,12_2023,2023-12-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,12_2023,2023-12-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,12_2023,2023-12-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,12_2023,2023-12-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,12_2023,2023-12-01,total_single_adults,NA,Transitional housing,NA
 A private rental market apartment with no rental subsidy,DYCD,12_2023,2023-12-01,families_with_children,NA,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,12_2023,2023-12-01,adult_families,0,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,0,Private market,NA
@@ -4123,10 +4123,10 @@ Moved back to vacated building,DYCD,12_2023,2023-12-01,families_with_children,NA
 Moved back to vacated building,DYCD,12_2023,2023-12-01,adult_families,NA,Other,NA
 Moved back to vacated building,DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DYCD,12_2023,2023-12-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DYCD,12_2023,2023-12-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,12_2023,2023-12-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,12_2023,2023-12-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,DYCD,12_2023,2023-12-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,12_2023,2023-12-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,12_2023,2023-12-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,12_2023,2023-12-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,12_2023,2023-12-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -4203,10 +4203,10 @@ Supportive housing,DYCD,12_2023,2023-12-01,families_with_children,NA,Supportive 
 Supportive housing,DYCD,12_2023,2023-12-01,adult_families,0,Supportive housing,NA
 Supportive housing,DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,0,Supportive housing,NA
 Supportive housing,DYCD,12_2023,2023-12-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,12_2023,2023-12-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,12_2023,2023-12-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,12_2023,2023-12-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,12_2023,2023-12-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,12_2023,2023-12-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,12_2023,2023-12-01,total_single_adults,NA,Transitional housing,NA
 DYCD-funded Crisis Services Program,DYCD,12_2023,2023-12-01,families_with_children,NA,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,12_2023,2023-12-01,adult_families,0,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,0,Youth special program,NA
@@ -4231,10 +4231,10 @@ Youth detention center/Correctional facility,DYCD,12_2023,2023-12-01,families_wi
 Youth detention center/Correctional facility,DYCD,12_2023,2023-12-01,adult_families,NA,Other,Own category?
 Youth detention center/Correctional facility,DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Other,Own category?
 Youth detention center/Correctional facility,DYCD,12_2023,2023-12-01,total_single_adults,NA,Other,Own category?
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,12_2023,2023-12-01,families_with_children,NA,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,12_2023,2023-12-01,adult_families,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,12_2023,2023-12-01,total_single_adults,0,NA,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,12_2023,2023-12-01,families_with_children,NA,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,12_2023,2023-12-01,adult_families,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,12_2023,2023-12-01,total_single_adults,0,Affordable housing,NA
 Shared Living (Not friends or relatives),DYCD,12_2023,2023-12-01,families_with_children,NA,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,12_2023,2023-12-01,adult_families,NA,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,12_2023,2023-12-01,runaway_and_homeless_youth,NA,Other,What does this mean?
@@ -4279,10 +4279,10 @@ Moved back to vacated building,DHS,01_2024,2023-12-01,families_with_children,NA,
 Moved back to vacated building,DHS,01_2024,2023-12-01,adult_families,NA,Other,NA
 Moved back to vacated building,DHS,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DHS,01_2024,2023-11-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DHS,01_2024,2023-12-01,families_with_children,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,01_2024,2023-12-01,adult_families,0,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,01_2024,2024-01-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DHS,01_2024,2023-11-01,total_single_adults,0,NA,NA
+Other affordable housing- 421-a affordable housing,DHS,01_2024,2023-12-01,families_with_children,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,01_2024,2023-12-01,adult_families,0,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DHS,01_2024,2023-11-01,total_single_adults,0,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,01_2024,2023-12-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,01_2024,2023-12-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DHS,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -4375,10 +4375,10 @@ Supportive housing,DHS,01_2024,2023-12-01,families_with_children,28,Supportive h
 Supportive housing,DHS,01_2024,2023-12-01,adult_families,0,Supportive housing,NA
 Supportive housing,DHS,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,DHS,01_2024,2023-11-01,total_single_adults,NA,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,01_2024,2023-12-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,01_2024,2023-12-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,01_2024,2024-01-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States department of housing and urban development or HRA,DHS,01_2024,2023-11-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,01_2024,2023-12-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,01_2024,2023-12-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States department of housing and urban development or HRA",DHS,01_2024,2023-11-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,DHS,01_2024,2023-12-01,families_with_children,368,Unknown,NA
 Unknown or unable to validate,DHS,01_2024,2023-12-01,adult_families,22,Unknown,NA
 Unknown or unable to validate,DHS,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -4419,10 +4419,10 @@ Moved back to vacated building,HPD,01_2024,2024-01-01,families_with_children,0,O
 Moved back to vacated building,HPD,01_2024,2024-01-01,adult_families,0,Other,NA
 Moved back to vacated building,HPD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HPD,01_2024,2024-01-01,total_single_adults,0,Other,NA
-Other affordable housing- 4-a affordable housing,HPD,01_2024,2024-01-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,01_2024,2024-01-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HPD,01_2024,2024-01-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HPD,01_2024,2024-01-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,01_2024,2024-01-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HPD,01_2024,2024-01-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,01_2024,2024-01-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,01_2024,2024-01-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HPD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -4499,10 +4499,10 @@ Supportive housing,HPD,01_2024,2024-01-01,families_with_children,0,Supportive ho
 Supportive housing,HPD,01_2024,2024-01-01,adult_families,0,Supportive housing,NA
 Supportive housing,HPD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Supportive housing,NA
 Supportive housing,HPD,01_2024,2024-01-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,01_2024,2024-01-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,01_2024,2024-01-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HPD,01_2024,2024-01-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,01_2024,2024-01-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,01_2024,2024-01-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HPD,01_2024,2024-01-01,total_single_adults,NA,Transitional housing,NA
 Unknown or unable to validate,HPD,01_2024,2024-01-01,families_with_children,0,Unknown,NA
 Unknown or unable to validate,HPD,01_2024,2024-01-01,adult_families,0,Unknown,NA
 Unknown or unable to validate,HPD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Unknown,NA
@@ -4571,10 +4571,10 @@ Moved back to vacated building,HRA,01_2024,2024-01-01,families_with_children,NA,
 Moved back to vacated building,HRA,01_2024,2024-01-01,adult_families,NA,Other,NA
 Moved back to vacated building,HRA,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,HRA,01_2024,2024-01-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,HRA,01_2024,2024-01-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,01_2024,2024-01-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,01_2024,2024-01-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,HRA,01_2024,2024-01-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,HRA,01_2024,2024-01-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,01_2024,2024-01-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,HRA,01_2024,2024-01-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,01_2024,2024-01-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,01_2024,2024-01-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,HRA,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -4627,10 +4627,10 @@ Settings with higher levels of medical care- medical respite care,HRA,01_2024,20
 Settings with higher levels of medical care- medical respite care,HRA,01_2024,2024-01-01,adult_families,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Medical care or rehabilitation facility,NA
 Settings with higher levels of medical care- medical respite care,HRA,01_2024,2024-01-01,total_single_adults,NA,Medical care or rehabilitation facility,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,01_2024,2024-01-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,01_2024,2024-01-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,01_2024,2024-01-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,HRA,01_2024,2024-01-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,01_2024,2024-01-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,01_2024,2024-01-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",HRA,01_2024,2024-01-01,total_single_adults,NA,Transitional housing,NA
 A private rental market apartment with no rental subsidy,DYCD,01_2024,2024-01-01,families_with_children,NA,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,01_2024,2024-01-01,adult_families,0,Private market,NA
 A private rental market apartment with no rental subsidy,DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,0,Private market,NA
@@ -4655,10 +4655,10 @@ Moved back to vacated building,DYCD,01_2024,2024-01-01,families_with_children,NA
 Moved back to vacated building,DYCD,01_2024,2024-01-01,adult_families,NA,Other,NA
 Moved back to vacated building,DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Other,NA
 Moved back to vacated building,DYCD,01_2024,2024-01-01,total_single_adults,NA,Other,NA
-Other affordable housing- 4-a affordable housing,DYCD,01_2024,2024-01-01,families_with_children,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,01_2024,2024-01-01,adult_families,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,NA,NA
-Other affordable housing- 4-a affordable housing,DYCD,01_2024,2024-01-01,total_single_adults,NA,NA,NA
+Other affordable housing- 421-a affordable housing,DYCD,01_2024,2024-01-01,families_with_children,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,01_2024,2024-01-01,adult_families,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Affordable housing,NA
+Other affordable housing- 421-a affordable housing,DYCD,01_2024,2024-01-01,total_single_adults,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,01_2024,2024-01-01,families_with_children,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,01_2024,2024-01-01,adult_families,NA,Affordable housing,NA
 Other affordable housing- Housing New York,DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Affordable housing,NA
@@ -4735,10 +4735,10 @@ Supportive housing,DYCD,01_2024,2024-01-01,families_with_children,NA,Supportive 
 Supportive housing,DYCD,01_2024,2024-01-01,adult_families,0,Supportive housing,NA
 Supportive housing,DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,0,Supportive housing,NA
 Supportive housing,DYCD,01_2024,2024-01-01,total_single_adults,0,Supportive housing,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,01_2024,2024-01-01,families_with_children,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,01_2024,2024-01-01,adult_families,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,NA,NA
-Transitional housing operated by or under contract or similar agreement with DHS DYCD HPD United States Department of Housing and Urban Development (HUD) or HRA,DYCD,01_2024,2024-01-01,total_single_adults,NA,NA,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,01_2024,2024-01-01,families_with_children,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,01_2024,2024-01-01,adult_families,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,NA,Transitional housing,NA
+"Transitional housing operated by or under contract or similar agreement with DHS, DYCD, HPD, United States Department of Housing and Urban Development (HUD) or HRA",DYCD,01_2024,2024-01-01,total_single_adults,NA,Transitional housing,NA
 DYCD-funded Crisis Services Program,DYCD,01_2024,2024-01-01,families_with_children,NA,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,01_2024,2024-01-01,adult_families,0,Youth special program,NA
 DYCD-funded Crisis Services Program,DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,10,Youth special program,NA
@@ -4763,10 +4763,10 @@ Youth detention center/Correctional facility,DYCD,01_2024,2024-01-01,families_wi
 Youth detention center/Correctional facility,DYCD,01_2024,2024-01-01,adult_families,0,Other,Own category?
 Youth detention center/Correctional facility,DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,0,Other,Own category?
 Youth detention center/Correctional facility,DYCD,01_2024,2024-01-01,total_single_adults,0,Other,Own category?
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,01_2024,2024-01-01,families_with_children,NA,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,01_2024,2024-01-01,adult_families,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,0,NA,NA
-Subsidized Apartment (NYCHA Mitchell Lama Etc.),DYCD,01_2024,2024-01-01,total_single_adults,0,NA,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,01_2024,2024-01-01,families_with_children,NA,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,01_2024,2024-01-01,adult_families,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,0,Affordable housing,NA
+"Subsidized Apartment (NYCHA, Mitchell Lama, Etc.)",DYCD,01_2024,2024-01-01,total_single_adults,0,Affordable housing,NA
 Shared Living (Not friends or relatives),DYCD,01_2024,2024-01-01,families_with_children,NA,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,01_2024,2024-01-01,adult_families,0,Other,What does this mean?
 Shared Living (Not friends or relatives),DYCD,01_2024,2024-01-01,runaway_and_homeless_youth,0,Other,What does this mean?

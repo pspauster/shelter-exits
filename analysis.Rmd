@@ -1,7 +1,7 @@
 ---
 title: "analysis"
 author: "Patrick"
-date: "2024-01-24"
+date: "`r Sys.Date()`"
 output: html_document
 ---
 
@@ -12,11 +12,70 @@ library(DT)
 
 knitr::opts_chunk$set(echo = FALSE, warning = F, message = F)
 ```
-# Total Exits
+# Exits
 ```{r}
-exits <- read_csv("data/shelter_exits.csv") %>% 
-  filter(!is.na(category))
+exits <- read_csv("data/shelter_exits.csv")
 ```
+
+## Total exits by month
+```{r}
+total_exits <- exits %>%
+  filter(agency == "DHS") %>% 
+  group_by(date) %>% 
+  summarize(total_exits = sum(exits, na.rm = T))
+```
+
+```{r}
+total_exits %>% 
+  filter(date >= "2023-04-01" & date <= "2023-11-01") %>% 
+  ggplot()+
+  geom_line(mapping = aes(x= date, y= cumsum(total_exits)))+
+  labs(title = "The rate of exits from DHS is stable",
+       subtitle = "Cumulative exits from DHS shelters by month")
+```
+
+## Entrants
+```{r}
+entrants_dhs <- read_csv(URLencode("https://data.cityofnewyork.us/resource/jiwc-ncpi.csv?$where=category = 'Admission and entrance to DHS-administered shelter facilities' AND facility_or_program_type = 'Unduplicated entrants (households) to DHS-administered facilities'")) %>% 
+  mutate(across(.cols = everything(), .fns = ~as.character(str_replace_all(.x, ",|#", "")))) %>% 
+  mutate_at(vars(families_with_children:data_period), ~as.numeric(if_else(.x == "<10", "0", .x))) %>% 
+  mutate(total_single_adults = if_else(total_single_adults == 0|is.na(total_single_adults), single_men + single_women, total_single_adults),
+         total_entrants = total_single_adults + adult_families + families_with_children,
+         date = base::as.Date(paste0(data_period, "01"), format = "%Y%m%d"),
+)
+
+entrants_dhs_old <- read_csv("https://data.cityofnewyork.us/resource/bdft-9t6c.csv?$query=SELECT%0A%20%20%60agency%60%2C%0A%20%20%60reporting_requirements%60%2C%0A%20%20%60category%60%2C%0A%20%20%60facility_or_program_type%60%2C%0A%20%20%60families_with_children%60%2C%0A%20%20%60adult_families%60%2C%0A%20%20%60total_families%60%2C%0A%20%20%60total_adults_on_families%60%2C%0A%20%20%60total_children%60%2C%0A%20%20%60single_men%60%2C%0A%20%20%60single_women%60%2C%0A%20%20%60total_single_adults%60%2C%0A%20%20%60total_adults%60%2C%0A%20%20%60data_period%60%0AWHERE%0A%20%20caseless_one_of(%0A%20%20%20%20%60category%60%2C%0A%20%20%20%20%22Unduplicated%20Eligible%20Entrants%20to%20DHS-administered%20Facilities%22%0A%20%20)%0AORDER%20BY%20%60data_period%60%20DESC%20NULL%20LAST")
+```
+
+```{r include=F}
+entrants_dhs %>% select(date, total_entrants) %>% mutate(series = "entrants") %>% rename(total = total_entrants) %>% 
+  bind_rows(total_exits %>% rename(total=total_exits) %>% mutate(series = "exits"))
+
+#put together recent entrants and exits
+```
+
+```{r}
+entrants_exits_mmr <- read_csv("https://data.cityofnewyork.us/resource/rbed-zzin.csv?$query=SELECT%0A%20%20%60agency%60%2C%0A%20%20%60agency_name%60%2C%0A%20%20%60id%60%2C%0A%20%20%60parentid%60%2C%0A%20%20%60service%60%2C%0A%20%20%60goal%60%2C%0A%20%20%60indicator%60%2C%0A%20%20%60retired%60%2C%0A%20%20%60source%60%2C%0A%20%20%60description%60%2C%0A%20%20%60createdon%60%2C%0A%20%20%60desireddirection%60%2C%0A%20%20%60geo%60%2C%0A%20%20%60geotype%60%2C%0A%20%20%60geovalue%60%2C%0A%20%20%60additive%60%2C%0A%20%20%60frequency%60%2C%0A%20%20%60lagtime%60%2C%0A%20%20%60reporting_period%60%2C%0A%20%20%60critical%60%2C%0A%20%20%60measurement_type%60%2C%0A%20%20%60fiscalyear%60%2C%0A%20%20%60valuedate%60%2C%0A%20%20%60acceptedvalue%60%2C%0A%20%20%60acceptedvalueytd%60%2C%0A%20%20%60targetmmr%60%2C%0A%20%20%60targetmmr2%60%0AWHERE%0A%20%20caseless_one_of(%60agency%60%2C%20%22DHS%22)%0A%20%20AND%20caseless_one_of(%0A%20%20%20%20%60indicator%60%2C%0A%20%20%20%20%22Families%20with%20children%20entering%20the%20DHS%20shelter%20services%20system%22%2C%0A%20%20%20%20%22Adult%20families%20entering%20the%20DHS%20shelter%20services%20system%22%2C%0A%20%20%20%20%22Single%20adults%20entering%20the%20DHS%20shelter%20services%20system%22%2C%0A%20%20%20%20%22Adult%20families%20exiting%20to%20permanent%20housing%22%2C%0A%20%20%20%20%22Families%20with%20children%20exiting%20to%20permanent%20housing%22%2C%0A%20%20%20%20%22Single%20adults%20exiting%20to%20permanent%20housing%22%0A%20%20)")
+
+mmr_sum <- entrants_exits_mmr %>% 
+  mutate(series = case_when(
+    str_detect(indicator, "enter") ~ "entrants",
+    str_detect(indicator, "exit") ~ "exits to housing"
+  )) %>% 
+  group_by(valuedate, series) %>% 
+  summarize(count = sum(acceptedvalue, na.rm = T))
+```
+
+```{r}
+mmr_sum %>% 
+  ggplot()+
+  geom_line(aes(x=valuedate, y=count, color=series))+
+  labs(title = "People are entering shelter at higher rates than they are exiting to housing",
+       subtitle = "DHS shelter entrants and exits to permanent housing",
+       caption = "Note: Exits to permanent housing are just one type of exit from shelter")
+
+```
+
 ## Total exits by category
 
 The large majority exiting are families with children or total_single adults
@@ -116,7 +175,7 @@ dhs_month_category %>%
 dhs_month_category %>% 
   filter(series == "total_single_adults") %>% 
   ggplot()+
-  geom_area(aes(x=date, y = per_exits, fill = category))+
+  geom_line(aes(x=date, y = per_exits, color = category))+
   labs(title = "DHS Percentage of Exits by Type",
        subtitle = "total_single_adults")
 
