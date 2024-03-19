@@ -29,6 +29,15 @@ total_exits <- exits %>%
 total_exits %>% 
   filter(date >= "2023-04-01" & date <= "2023-11-01") %>% 
   ggplot()+
+  geom_line(mapping = aes(x= date, y= total_exits))+
+  labs(title = "The rate of exits from DHS is stable",
+       subtitle = "Exits from DHS shelters by month")
+```
+
+```{r}
+total_exits %>% 
+  filter(date >= "2023-04-01" & date <= "2023-11-01") %>% 
+  ggplot()+
   geom_line(mapping = aes(x= date, y= cumsum(total_exits)))+
   labs(title = "The rate of exits from DHS is stable",
        subtitle = "Cumulative exits from DHS shelters by month")
