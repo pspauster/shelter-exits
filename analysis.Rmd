@@ -23,6 +23,11 @@ total_exits <- exits %>%
   filter(agency == "DHS") %>% 
   group_by(date) %>% 
   summarize(total_exits = sum(exits, na.rm = T))
+
+total_exits_series <- exits %>%
+  filter(agency == "DHS") %>% 
+  group_by(date, series) %>% 
+  summarize(total_exits = sum(exits, na.rm = T))
 ```
 
 ```{r}
@@ -191,5 +196,39 @@ dhs_month_category %>%
 
 ```
 
+```{r}
+# pull in entrances and population data for Sankey
+
+entrants_pop <- read_csv("https://data.cityofnewyork.us/resource/jiwc-ncpi.csv?$query=SELECT%0A%20%20%60agency%60%2C%0A%20%20%60category%60%2C%0A%20%20%60facility_or_program_type%60%2C%0A%20%20%60families_with_children%60%2C%0A%20%20%60adult_families%60%2C%0A%20%20%60total_families%60%2C%0A%20%20%60total_adults_in_families%60%2C%0A%20%20%60total_children%60%2C%0A%20%20%60single_men%60%2C%0A%20%20%60single_women%60%2C%0A%20%20%60runaway_and_homeless_youth%60%2C%0A%20%20%60anyone_of_another_gender%60%2C%0A%20%20%60total_single_adults%60%2C%0A%20%20%60total_adults%60%2C%0A%20%20%60total%60%2C%0A%20%20%60data_period%60%2C%0A%20%20%60data_period_notes%60%0AWHERE%0A%20%20caseless_one_of(%60agency%60%2C%20%22Department%20of%20Homeless%20Services%20(DHS)%22)%0A%20%20AND%20(caseless_one_of(%0A%20%20%20%20%20%20%20%20%20%20%20%60category%60%2C%0A%20%20%20%20%20%20%20%20%20%20%20%22Admission%20and%20entrance%20to%20DHS-administered%20shelter%20facilities%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%22Total%20number%20of%20individuals%20utilizing%20city-administered%20facilities%22%0A%20%20%20%20%20%20%20%20%20)%0A%20%20%20%20%20%20%20%20%20AND%20caseless_one_of(%0A%20%20%20%20%20%20%20%20%20%20%20%60facility_or_program_type%60%2C%0A%20%20%20%20%20%20%20%20%20%20%20%22Unduplicated%20entrants%20(households)%20to%20DHS-administered%20facilities%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%22DHS-administered%20facilities%22%0A%20%20%20%20%20%20%20%20%20))")
+
+entrants_pop_clean <- entrants_pop %>% 
+  mutate(across(.cols = everything(), .fns = ~as.character(str_replace_all(.x, ",|#", ""))),
+         date = base::as.Date(paste0(data_period, "01"), format = "%Y%m%d"),
+         category = case_when(
+           facility_or_program_type == "DHS-administered facilities" ~ "population",
+           facility_or_program_type == "Unduplicated entrants (households) to DHS-administered facilities" ~ "enter"
+         )) %>% 
+  mutate_at(vars(families_with_children:data_period), ~as.numeric(if_else(.x == "<10", "0", .x))) %>% 
+  mutate_at(vars(category:facility_or_program_type), ~str_trim(str_replace_all(.x, "[0-9]", ""), side = "both")) %>% 
+  select(date, category, families_with_children, total_single_adults, adult_families) %>% 
+  pivot_longer(cols = c("families_with_children", "total_single_adults", "adult_families"), names_to = "series", values_to = "value") %>% 
+  pivot_wider(names_from = category, values_from = value)
+
+flow_sum <- entrants_pop_clean %>% 
+  full_join(total_exits_series %>% filter(series != "runaway_and_homeless_youth"), by = c("date", "series")) %>% 
+  filter(date >= as.Date("2023-06-01"), date <= as.Date("2023-11-01")) %>% #update this range when re-runnign with new data
+  replace_na(list(enter = 0)) %>% 
+  mutate(stayed = population - enter - total_exits)
+
+sankey_data <- flow_sum %>% 
+  pivot_longer(cols = c("population", "total_exits", "enter", "stayed")) %>% 
+  group_by(name) %>% 
+  summarise(value = sum(value)) %>% 
+  mutate(source = case_when(
+    name == "enter" ~ "entered",
+    name == "total_exits" ~ "shelter",
+    name == "stayed" ~ "shelter"
+  ))
+```
 
 
