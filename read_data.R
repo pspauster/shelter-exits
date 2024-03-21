@@ -46,7 +46,7 @@ field_categorization <- all_months %>%
 field_categorization %>% xlsx::write.xlsx("field_names_categorization.xlsx")
 
 field_validation <- xlsx::read.xlsx("field_names_validated.xlsx", sheetIndex = 1) %>% 
-  select(facility_or_program_type, category, notes)
+  select(facility_or_program_type, category, housing_category, notes)
 
 #need to lag families 1 month and lag single adults 2 months for DHS.
 shelter_exits_clean <- all_months %>% 
