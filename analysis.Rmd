@@ -218,12 +218,12 @@ flow_sum <- entrants_pop_clean %>%
   full_join(total_exits_series %>% filter(series != "runaway_and_homeless_youth"), by = c("date", "series")) %>% 
   filter(date >= as.Date("2023-06-01"), date <= as.Date("2023-11-01")) %>% #update this range when re-runnign with new data
   replace_na(list(enter = 0)) %>% 
-  mutate(stayed = population - enter - total_exits)
+  mutate(stayed = population - total_exits)
 
 sankey_data <- flow_sum %>% 
   pivot_longer(cols = c("population", "total_exits", "enter", "stayed")) %>% 
   group_by(name) %>% 
-  summarise(value = sum(value)) %>% 
+  summarise(value = mean(value)) %>% 
   mutate(source = case_when(
     name == "enter" ~ "entered",
     name == "total_exits" ~ "shelter",
