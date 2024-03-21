@@ -12,12 +12,15 @@ library(DT)
 
 knitr::opts_chunk$set(echo = FALSE, warning = F, message = F)
 ```
+
 # Exits
+
 ```{r}
 exits <- read_csv("data/shelter_exits.csv")
 ```
 
 ## Total exits by month
+
 ```{r}
 total_exits <- exits %>%
   filter(agency == "DHS") %>% 
@@ -26,8 +29,17 @@ total_exits <- exits %>%
 
 total_exits_series <- exits %>%
   filter(agency == "DHS") %>% 
-  group_by(date, series) %>% 
+  filter(series %in% c("families_with_children", "total_single_adults", "adult_families")) %>% 
+  filter(date >= as.Date("2023-06-01"), date <= as.Date("2023-11-01")) %>% #update this range when re-runnign with new data
+  group_by(date) %>% 
   summarize(total_exits = sum(exits, na.rm = T))
+
+total_exits_category_sum <- exits %>%
+  filter(agency == "DHS") %>% 
+  filter(series %in% c("families_with_children", "total_single_adults", "adult_families")) %>% 
+  filter(date >= as.Date("2023-06-01"), date <= as.Date("2023-11-01")) %>% #update this range when re-runnign with new data
+  group_by(date, housing_category) %>% 
+  summarize(value = sum(exits, na.rm = T))
 ```
 
 ```{r}
@@ -49,6 +61,7 @@ total_exits %>%
 ```
 
 ## Entrants
+
 ```{r}
 entrants_dhs <- read_csv(URLencode("https://data.cityofnewyork.us/resource/jiwc-ncpi.csv?$where=category = 'Admission and entrance to DHS-administered shelter facilities' AND facility_or_program_type = 'Unduplicated entrants (households) to DHS-administered facilities'")) %>% 
   mutate(across(.cols = everything(), .fns = ~as.character(str_replace_all(.x, ",|#", "")))) %>% 
@@ -93,6 +106,7 @@ mmr_sum %>%
 ## Total exits by category
 
 The large majority exiting are families with children or total_single adults
+
 ```{r}
 exits %>% 
   group_by(category, series) %>% 
@@ -101,7 +115,9 @@ exits %>%
   adorn_totals(where = c("row", "col")) %>% 
   DT::datatable(options = list(iDisplayLength = 25))
 ```
+
 ### Total exits by category, proportion of population
+
 ```{r}
 exits %>% 
   group_by(category, series) %>% 
@@ -116,6 +132,7 @@ exits %>%
 ## Total exits by agency
 
 The huge majority of exits are from DHS
+
 ```{r}
 exits %>% 
   group_by(agency, series) %>% 
@@ -123,6 +140,7 @@ exits %>%
   pivot_wider(names_from = "series", values_from = "total_exits") %>%
   DT::datatable()
 ```
+
 # Monthly exits
 
 Note: DHS adult families are delayed 2 months, single adults delayed 1 month
@@ -147,6 +165,7 @@ exits %>%
 ```
 
 ## Families with children
+
 Unknown exits are rising in large numbers and now make up most of the exits from shelter
 
 ```{r}
@@ -211,24 +230,54 @@ entrants_pop_clean <- entrants_pop %>%
   mutate_at(vars(families_with_children:data_period), ~as.numeric(if_else(.x == "<10", "0", .x))) %>% 
   mutate_at(vars(category:facility_or_program_type), ~str_trim(str_replace_all(.x, "[0-9]", ""), side = "both")) %>% 
   select(date, category, families_with_children, total_single_adults, adult_families) %>% 
-  pivot_longer(cols = c("families_with_children", "total_single_adults", "adult_families"), names_to = "series", values_to = "value") %>% 
-  pivot_wider(names_from = category, values_from = value)
+  rowwise() %>% 
+  mutate(value = sum(families_with_children, total_single_adults, adult_families, na.rm = T)) %>% 
+  pivot_wider(id_cols = c("date"), names_from = category, values_from = value)
 
 flow_sum <- entrants_pop_clean %>% 
-  full_join(total_exits_series %>% filter(series != "runaway_and_homeless_youth"), by = c("date", "series")) %>% 
+  full_join(total_exits_series, by = "date") %>% 
   filter(date >= as.Date("2023-06-01"), date <= as.Date("2023-11-01")) %>% #update this range when re-runnign with new data
   replace_na(list(enter = 0)) %>% 
   mutate(stayed = population - total_exits)
 
 sankey_data <- flow_sum %>% 
-  pivot_longer(cols = c("population", "total_exits", "enter", "stayed")) %>% 
-  group_by(name) %>% 
-  summarise(value = mean(value)) %>% 
+  pivot_longer(cols = c("total_exits", "enter", "stayed")) %>% 
+  bind_rows(total_exits_category_sum) %>% 
+  arrange(desc(date)) %>% 
+  group_by(name, housing_category) %>% 
+  summarise(value = mean(value, na.rm = T)) %>% 
   mutate(source = case_when(
-    name == "enter" ~ "entered",
-    name == "total_exits" ~ "shelter",
-    name == "stayed" ~ "shelter"
-  ))
+              name == "enter" ~ "Entered",
+              name == "total_exits" ~ "Shelter",
+              name == "stayed" ~ "Shelter",
+              is.na(name) ~ "Exited"
+         ),
+         dest = case_when(
+              name == "enter" ~ "Shelter",
+              name == "total_exits" ~ "Exited",
+              name == "stayed" ~ "Stayed in Shelter",
+              is.na(name) ~ housing_category
+         ),
+         step_from = case_when(
+              name == "enter" ~ 0,
+              name == "total_exits" ~ 1,
+              name == "stayed" ~ 1,
+              is.na(name) ~ 2
+         ),
+         step_to = case_when(
+              name == "enter" ~ 1,
+              name == "total_exits" ~ 2,
+              name == "stayed" ~ 2,
+              is.na(name) ~ 3
+         )
+      ) %>% 
+  select(value, source, dest, step_from, step_to)
+
+write_csv(sankey_data, "sankey.csv")
 ```
 
+# Flows in and Out of Shelter
 
+```{=html}
+<div class="flourish-embed flourish-sankey" data-src="visualisation/17241243"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
