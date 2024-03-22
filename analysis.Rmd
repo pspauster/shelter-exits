@@ -280,15 +280,15 @@ sankey_data <- flow_sum %>%
   group_by(name, housing_category) %>% 
   summarise(value = mean(value, na.rm = T)) %>% 
   mutate(source = case_when(
-              name == "enter" ~ "Entered",
-              name == "total_exits" ~ "Shelter",
-              name == "stayed" ~ "Shelter",
+              name == "enter" ~ "Newly entered",
+              name == "total_exits" ~ "In shelter",
+              name == "stayed" ~ "In shelter",
               is.na(name) ~ "Exited"
          ),
          dest = case_when(
-              name == "enter" ~ "Shelter",
+              name == "enter" ~ "In shelter",
               name == "total_exits" ~ "Exited",
-              name == "stayed" ~ "Stayed in Shelter",
+              name == "stayed" ~ "No exit",
               is.na(name) ~ housing_category
          ),
          step_from = case_when(
