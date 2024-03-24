@@ -288,7 +288,7 @@ sankey_data <- flow_sum %>%
          dest = case_when(
               name == "enter" ~ "In shelter",
               name == "total_exits" ~ "Exited",
-              name == "stayed" ~ "No exit",
+              name == "stayed" ~ "Stayed in shelter",
               is.na(name) ~ housing_category
          ),
          step_from = case_when(
