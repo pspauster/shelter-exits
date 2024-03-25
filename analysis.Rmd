@@ -12,6 +12,37 @@ library(DT)
 
 knitr::opts_chunk$set(echo = FALSE, warning = F, message = F)
 ```
+# More Entrances than Exits
+
+The shelter system can't keep up with the high number of people entering shelter each month, as the exits to housing are stable given limited resources to help house people in shelter.
+
+```{=html}
+<iframe title="Shelter Exits Not Keeping Pace" aria-label="Multiple Lines" id="datawrapper-chart-1CcpR" src="https://datawrapper.dwcdn.net/1CcpR/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="282" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+```
+
+# Flows in and Out of Shelter
+
+The route to housing is slim - people either move around the system. When they do exit, they are likely to exit unknown - more likely meaning they stay homeless than they find housing.
+
+```{=html}
+<div class="flourish-embed flourish-sankey" data-src="visualisation/17241243"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+# Where do people go?
+
+Overwhelmingly, people are exiting unknown, and increasingly so in recent months, but the picture looks different for families, who are much more likely to get access to housing progrms, than it does for single adults.
+
+
+```{=html}
+<iframe title="A Huge Spike In Unknown Family Exits" aria-label="Multiple Lines" id="datawrapper-chart-ZaBVs" src="https://datawrapper.dwcdn.net/ZaBVs/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="737" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+
+
+```
+
+```{=html}
+<iframe title="Single Adults Exit Unknown Most of the Time" aria-label="Multiple Lines" id="datawrapper-chart-kly9G" src="https://datawrapper.dwcdn.net/kly9G/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="516" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+
+```
 
 # Exits
 
