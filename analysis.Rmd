@@ -91,6 +91,8 @@ mmr_sum <- entrants_exits_mmr %>%
   )) %>% 
   group_by(valuedate, series) %>% 
   summarize(count = sum(acceptedvalue, na.rm = T))
+
+write_csv(mmr_sum %>% pivot_wider(names_from = "series", values_from = "count") %>% filter(year(valuedate)>2018), "entrances_exits.csv")
 ```
 
 ```{r}
@@ -191,7 +193,33 @@ dhs_month_category %>%
   geom_line(aes(x=date, y = per_exits, color = category))+
   labs(title = "DHS Percentage of Exits by Type",
        subtitle = "families_with_children")
+
+dhs_month_category %>% 
+  filter(series == "families_with_children") %>% 
+  pivot_wider(-per_exits, names_from = "category", values_from = "exits") %>% 
+  write_csv("families_with_children.csv")
+
+dhs_month_category %>% 
+  filter(series == "total_single_adults") %>% 
+  pivot_wider(-per_exits, names_from = "category", values_from = "exits") %>% 
+  write_csv("total_single_adults.csv")
+
+
+dhs_category <- exits %>% 
+  filter(agency == "DHS", series %in% c("families_with_children", "total_single_adults", "adult_families")) %>% 
+  group_by(date, category) %>% 
+  summarize(exits = sum(exits, na.rm = T)) %>% 
+  ungroup() %>% 
+  group_by(date) %>% 
+  mutate(per_exits = exits/sum(exits, na.rm = T)*100)
+
+dhs_category %>% 
+  filter(date >= as.Date("2023-06-01"), date <= as.Date("2023-11-01")) %>% 
+  pivot_wider(-per_exits, names_from = "category", values_from = "exits") %>% 
+  write_csv("exit_cat_all.csv")
+
 ```
+
 
 ## Single Adults
 
@@ -276,8 +304,3 @@ sankey_data <- flow_sum %>%
 write_csv(sankey_data, "sankey.csv")
 ```
 
-# Flows in and Out of Shelter
-
-```{=html}
-<div class="flourish-embed flourish-sankey" data-src="visualisation/17241243"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-```
