@@ -1,7 +1,7 @@
-name,value,source,dest,step_from,step_to
-enter,3535.5,Entered,Shelter,0,1
-stayed,45813.166666666664,Shelter,Stayed in Shelter,1,2
-total_exits,5004,Shelter,Exited,1,2
-NA,993.6666666666666,Exited,Other,2,3
-NA,1248.8333333333333,Exited,Permanent Housing,2,3
-NA,2761.5,Exited,Unknown,2,3
+value,source,dest,step_from,step_to
+3535.5,Entered,Shelter,0,1
+45813.166666666664,Shelter,Stayed in Shelter,1,2
+5004,Shelter,Exited,1,2
+993.6666666666666,Exited,Other,2,3
+1248.8333333333333,Exited,Permanent Housing,2,3
+2761.5,Exited,Unknown,2,3

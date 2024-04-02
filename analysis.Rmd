@@ -227,7 +227,9 @@ dhs_month_category %>%
 
 dhs_month_category %>% 
   filter(series == "families_with_children") %>% 
+  arrange(date, desc(exits)) %>% 
   pivot_wider(-per_exits, names_from = "category", values_from = "exits") %>% 
+  relocate(date, series, Unknown) %>% 
   write_csv("families_with_children.csv")
 
 dhs_month_category %>% 
@@ -245,7 +247,7 @@ dhs_category <- exits %>%
   mutate(per_exits = exits/sum(exits, na.rm = T)*100)
 
 dhs_category %>% 
-  filter(date >= as.Date("2023-06-01"), date <= as.Date("2023-11-01")) %>% 
+  filter(date >= as.Date("2023-06-01"), date <= as.Date("2023-12-01")) %>% 
   pivot_wider(-per_exits, names_from = "category", values_from = "exits") %>% 
   write_csv("exit_cat_all.csv")
 
@@ -330,6 +332,7 @@ sankey_data <- flow_sum %>%
               is.na(name) ~ 3
          )
       ) %>% 
+  ungroup() %>% 
   select(value, source, dest, step_from, step_to)
 
 write_csv(sankey_data, "sankey.csv")
