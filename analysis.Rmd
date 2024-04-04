@@ -50,6 +50,7 @@ Overwhelmingly, people are exiting unknown, and increasingly so in recent months
 exits <- read_csv("data/shelter_exits.csv")
 ```
 
+
 ## Total exits by month
 
 ```{r}
@@ -338,3 +339,43 @@ sankey_data <- flow_sum %>%
 write_csv(sankey_data, "sankey.csv")
 ```
 
+# Stats for Article
+```{r}
+
+#percent of DHS shelter population that exited each month, on average June to December
+
+5004.0000/(45813.1667+5004.0000)
+
+#percent of DHS shelter population that exited each month to permanent housing, on average June to December
+
+1248.8333/(45813.1667+5004.0000)
+
+#percent of exits with vouchers, DHS total, June to December
+exits %>% filter(housing_category == "Permanent Housing", agency == "DHS") %>% group_by(category) %>% summarize(total = sum(exits, na.rm = T)) %>% 
+  adorn_percentages(denominator = "col")
+
+#52
+
+#percent of exits unknown, DHS total June to December
+dhs_category %>%  group_by(category) %>% summarize(total = sum(exits, na.rm = T)) %>% 
+  adorn_percentages(denominator = "col")
+#56%
+
+#total exits unknown, DHS total June to December
+dhs_category %>% group_by(category) %>% summarize(total = sum(exits, na.rm = T)) 
+
+#28,198
+
+#percent of single adults that exit unknown, DHS total, all months with SA data
+dhs_month_category %>% 
+  filter(series == "total_single_adults") %>% 
+  group_by(category) %>% 
+  summarise(total = sum(exits, na.rm = T)) %>% 
+  adorn_percentages("col")
+
+#Percent of families with children who exit unknown, DHS total, all months with family data
+
+
+
+
+```
