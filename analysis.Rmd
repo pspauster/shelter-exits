@@ -375,7 +375,11 @@ dhs_month_category %>%
 
 #Percent of families with children who exit unknown, DHS total, all months with family data
 
-
+dhs_month_category %>% 
+  filter(series == "families_with_children") %>% 
+  group_by(category) %>% 
+  summarise(total = sum(exits, na.rm = T)) %>% 
+  adorn_percentages("col")
 
 
 ```
