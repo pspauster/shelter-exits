@@ -1,5 +1,5 @@
 library(tidyverse)
-library(tabulizer)
+library(tabulapdf)
 library(janitor)
 library(lubridate)
 
@@ -35,8 +35,6 @@ read_report <- function(month) {
   return(result)
   
 }
-
-view(read_report("05_2023"))
 
 all_months <- map_df(months$month_year, ~read_report(.x))
 
