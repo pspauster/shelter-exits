@@ -59,17 +59,24 @@ total_exits <- exits %>%
   group_by(date) %>% 
   summarize(total_exits = sum(exits, na.rm = T))
 
+total_exits_dhs <- exits %>%
+  filter(agency == "DHS") %>% 
+  filter(series %in% c("families_with_children", "total_single_adults", "adult_families")) %>% 
+  filter(date >= as.Date("2023-06-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
+  group_by(date) %>% 
+  summarize(total_exits = sum(exits, na.rm = T))
+
 total_exits_series <- exits %>%
   filter(agency == "DHS") %>% 
   filter(series %in% c("families_with_children", "total_single_adults", "adult_families")) %>% 
-  filter(date >= as.Date("2023-06-01"), date <= as.Date("2023-11-01")) %>% #update this range when re-runnign with new data
-  group_by(date) %>% 
+  filter(date >= as.Date("2023-06-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
+  group_by(series, date) %>% 
   summarize(total_exits = sum(exits, na.rm = T))
 
 total_exits_category_sum <- exits %>%
   filter(agency == "DHS") %>% 
   filter(series %in% c("families_with_children", "total_single_adults", "adult_families")) %>% 
-  filter(date >= as.Date("2023-06-01"), date <= as.Date("2023-11-01")) %>% #update this range when re-runnign with new data
+  filter(date >= as.Date("2023-06-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
   group_by(date, housing_category) %>% 
   summarize(value = sum(exits, na.rm = T))
 ```
@@ -121,16 +128,16 @@ mmr_sum <- entrants_exits_mmr %>%
     str_detect(indicator, "enter") ~ "entrants",
     str_detect(indicator, "exit") ~ "exits to housing"
   )) %>% 
-  group_by(valuedate, series) %>% 
+  group_by(date=ymd(valuedate), series) %>% 
   summarize(count = sum(acceptedvalue, na.rm = T))
 
-write_csv(mmr_sum %>% pivot_wider(names_from = "series", values_from = "count") %>% filter(year(valuedate)>2018), "entrances_exits.csv")
+write_csv(mmr_sum %>% pivot_wider(names_from = "series", values_from = "count") %>% filter(year(date)>2018), "entrances_exits.csv")
 ```
 
 ```{r}
 mmr_sum %>% 
   ggplot()+
-  geom_line(aes(x=valuedate, y=count, color=series))+
+  geom_line(aes(x=date, y=count, color=series))+
   labs(title = "People are entering shelter at higher rates than they are exiting to housing",
        subtitle = "DHS shelter entrants and exits to permanent housing",
        caption = "Note: Exits to permanent housing are just one type of exit from shelter")
@@ -143,6 +150,7 @@ The large majority exiting are families with children or total_single adults
 
 ```{r}
 exits %>% 
+  filter(agency == "DHS") %>% 
   group_by(category, series) %>% 
   summarize(total_exits = sum(exits, na.rm = T)) %>% 
   pivot_wider(names_from = "series", values_from = "total_exits") %>%
@@ -154,6 +162,7 @@ exits %>%
 
 ```{r}
 exits %>% 
+  filter(agency == "DHS") %>% 
   group_by(category, series) %>% 
   summarize(total_exits = sum(exits, na.rm = T)) %>% 
   pivot_wider(names_from = "series", values_from = "total_exits") %>%
@@ -197,6 +206,20 @@ exits %>%
        subtitle = "all series")
 
 ```
+
+```{r}
+exits %>% 
+  filter(agency == "DHS") %>% 
+  group_by(housing_category, series) %>% 
+  summarize(total_exits = sum(exits, na.rm = T)) %>% 
+  pivot_wider(names_from = "series", values_from = "total_exits") %>%
+  ungroup() %>% 
+  mutate_at(vars(adult_families:total_single_adults), ~.x/sum(.x, na.rm=T)) %>% 
+  datatable(options = list(iDisplayLength = 25)) %>% 
+  formatPercentage(2:5)
+```
+
+
 
 ## Families with children
 
@@ -248,7 +271,7 @@ dhs_category <- exits %>%
   mutate(per_exits = exits/sum(exits, na.rm = T)*100)
 
 dhs_category %>% 
-  filter(date >= as.Date("2023-06-01"), date <= as.Date("2023-12-01")) %>% 
+  filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update for new data
   pivot_wider(-per_exits, names_from = "category", values_from = "exits") %>% 
   write_csv("exit_cat_all.csv")
 
@@ -291,14 +314,29 @@ entrants_pop_clean <- entrants_pop %>%
          )) %>% 
   mutate_at(vars(families_with_children:data_period), ~as.numeric(if_else(.x == "<10", "0", .x))) %>% 
   mutate_at(vars(category:facility_or_program_type), ~str_trim(str_replace_all(.x, "[0-9]", ""), side = "both")) %>% 
-  select(date, category, families_with_children, total_single_adults, adult_families) %>% 
+  select(date, category, families_with_children, single_men, single_women, adult_families) %>% 
   rowwise() %>% 
-  mutate(value = sum(families_with_children, total_single_adults, adult_families, na.rm = T)) %>% 
+  mutate(value = sum(families_with_children, single_men, single_women, adult_families, na.rm = T)) %>% 
   pivot_wider(id_cols = c("date"), names_from = category, values_from = value)
 
+
+breakout_by_type <- entrants_pop %>% 
+  mutate(across(.cols = everything(), .fns = ~as.character(str_replace_all(.x, ",|#", ""))),
+         date = base::as.Date(paste0(data_period, "01"), format = "%Y%m%d"),
+         category = case_when(
+           facility_or_program_type == "DHS-administered facilities" ~ "population",
+           facility_or_program_type == "Unduplicated entrants (households) to DHS-administered facilities" ~ "enter"
+         )) %>% 
+  mutate_at(vars(families_with_children:data_period), ~as.numeric(if_else(.x == "<10", "0", .x))) %>% 
+  mutate_at(vars(category:facility_or_program_type), ~str_trim(str_replace_all(.x, "[0-9]", ""), side = "both")) %>% 
+  select(date, category, families_with_children, total_single_adults, single_men, single_women, adult_families)
+
+flow_by_type <- breakout_by_type %>% 
+  pivot_longer(cols = c("families_with_children", "total_single_adults", ))
+
 flow_sum <- entrants_pop_clean %>% 
-  full_join(total_exits_series, by = "date") %>% 
-  filter(date >= as.Date("2023-06-01"), date <= as.Date("2023-11-01")) %>% #update this range when re-runnign with new data
+  full_join(total_exits_dhs, by = "date") %>% 
+  filter(date >= as.Date("2023-06-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
   replace_na(list(enter = 0)) %>% 
   mutate(stayed = population - total_exits)
 
@@ -317,7 +355,7 @@ sankey_data <- flow_sum %>%
          dest = case_when(
               name == "enter" ~ "Shelter",
               name == "total_exits" ~ "Exited",
-              name == "stayed" ~ "Stayed in Shelter",
+              name == "stayed" ~ "Stayed in system",
               is.na(name) ~ housing_category
          ),
          step_from = case_when(
@@ -342,19 +380,19 @@ write_csv(sankey_data, "sankey.csv")
 # Stats for Article
 ```{r}
 
-#percent of DHS shelter population that exited each month, on average June to December
+#percent of DHS shelter population that exited each month, on average June to Jan
 
-5004.0000/(45813.1667+5004.0000)
+5050.1250/(45714.7500+5050.1250)
 
-#percent of DHS shelter population that exited each month to permanent housing, on average June to December
+#percent of DHS shelter population that exited each month to permanent housing, on average June to Jan
 
-1248.8333/(45813.1667+5004.0000)
+1248.8333/(45714.7500+5050.1250)
 
 #percent of exits with vouchers, DHS total, June to December
 exits %>% filter(housing_category == "Permanent Housing", agency == "DHS") %>% group_by(category) %>% summarize(total = sum(exits, na.rm = T)) %>% 
   adorn_percentages(denominator = "col")
 
-#52
+#53
 
 #percent of exits unknown, DHS total June to December
 dhs_category %>%  group_by(category) %>% summarize(total = sum(exits, na.rm = T)) %>% 
@@ -364,7 +402,7 @@ dhs_category %>%  group_by(category) %>% summarize(total = sum(exits, na.rm = T)
 #total exits unknown, DHS total June to December
 dhs_category %>% group_by(category) %>% summarize(total = sum(exits, na.rm = T)) 
 
-#28,198
+#30819
 
 #percent of single adults that exit unknown, DHS total, all months with SA data
 dhs_month_category %>% 

@@ -1,11 +1,12 @@
-date,series,Unknown,Voucher,Other,Family or friends,NYCHA,City-financed homeless unit,Private market,Supportive housing,Section 8,Affordable housing,Medical care or rehabilitation facility,Rapid re-housing,Transitional housing
-2023-04-01,families_with_children,83,325,65,59,40,32,27,25,15,0,0,0,0
-2023-05-01,families_with_children,89,356,76,83,33,13,26,20,23,0,0,0,0
-2023-06-01,families_with_children,118,324,89,83,64,12,28,16,28,0,0,0,0
-2023-07-01,families_with_children,183,325,103,141,41,15,44,0,23,0,0,0,0
-2023-08-01,families_with_children,252,324,105,166,29,0,54,10,26,0,0,0,0
-2023-09-01,families_with_children,273,303,100,109,35,17,64,0,21,0,0,0,0
-2023-10-01,families_with_children,339,317,111,138,58,10,69,0,28,0,0,0,0
-2023-11-01,families_with_children,314,336,91,132,32,0,66,0,13,0,0,0,0
-2023-12-01,families_with_children,368,365,122,134,42,0,87,28,19,0,0,0,0
-2024-01-01,families_with_children,264,408,165,157,44,0,71,45,15,0,0,0,0
+date,series,Unknown,Voucher,Other,Family or friends,NYCHA,City-financed homeless unit,Private market,Supportive housing,Affordable housing,Medical care or rehabilitation facility,Rapid re-housing,Transitional housing
+2023-04-01,families_with_children,83,340,65,59,40,32,27,25,0,0,0,0
+2023-05-01,families_with_children,89,379,76,83,33,13,26,20,0,0,0,0
+2023-06-01,families_with_children,118,352,89,83,64,12,28,16,0,0,0,0
+2023-07-01,families_with_children,183,348,103,141,41,15,44,0,0,0,0,0
+2023-08-01,families_with_children,252,350,105,166,29,0,54,10,0,0,0,0
+2023-09-01,families_with_children,273,324,100,109,35,17,64,0,0,0,0,0
+2023-10-01,families_with_children,339,345,111,138,58,10,69,0,0,0,0,0
+2023-11-01,families_with_children,314,349,91,132,32,0,66,0,0,0,0,0
+2023-12-01,families_with_children,368,384,122,134,42,0,87,28,0,0,0,0
+2024-01-01,families_with_children,264,423,165,157,44,0,71,45,0,0,0,0
+2024-02-01,families_with_children,253,360,99,122,38,12,77,36,0,0,0,0
