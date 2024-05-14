@@ -62,21 +62,21 @@ total_exits <- exits %>%
 total_exits_dhs <- exits %>%
   filter(agency == "DHS") %>% 
   filter(series %in% c("families_with_children", "total_single_adults", "adult_families")) %>% 
-  filter(date >= as.Date("2023-06-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
+  filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
   group_by(date) %>% 
   summarize(total_exits = sum(exits, na.rm = T))
 
 total_exits_series <- exits %>%
   filter(agency == "DHS") %>% 
   filter(series %in% c("families_with_children", "total_single_adults", "adult_families")) %>% 
-  filter(date >= as.Date("2023-06-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
+  filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
   group_by(series, date) %>% 
   summarize(total_exits = sum(exits, na.rm = T))
 
 total_exits_category_sum <- exits %>%
   filter(agency == "DHS") %>% 
   filter(series %in% c("families_with_children", "total_single_adults", "adult_families")) %>% 
-  filter(date >= as.Date("2023-06-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
+  filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
   group_by(date, housing_category) %>% 
   summarize(value = sum(exits, na.rm = T))
 ```
@@ -271,7 +271,7 @@ dhs_category <- exits %>%
   mutate(per_exits = exits/sum(exits, na.rm = T)*100)
 
 dhs_category %>% 
-  filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update for new data
+  filter(date >= as.Date("2023-04-01"), date <= as.Date("2024-02-01")) %>% #update for new data
   pivot_wider(-per_exits, names_from = "category", values_from = "exits") %>% 
   write_csv("exit_cat_all.csv")
 
@@ -305,12 +305,17 @@ dhs_month_category %>%
 
 entrants_pop <- read_csv("https://data.cityofnewyork.us/resource/jiwc-ncpi.csv?$query=SELECT%0A%20%20%60agency%60%2C%0A%20%20%60category%60%2C%0A%20%20%60facility_or_program_type%60%2C%0A%20%20%60families_with_children%60%2C%0A%20%20%60adult_families%60%2C%0A%20%20%60total_families%60%2C%0A%20%20%60total_adults_in_families%60%2C%0A%20%20%60total_children%60%2C%0A%20%20%60single_men%60%2C%0A%20%20%60single_women%60%2C%0A%20%20%60runaway_and_homeless_youth%60%2C%0A%20%20%60anyone_of_another_gender%60%2C%0A%20%20%60total_single_adults%60%2C%0A%20%20%60total_adults%60%2C%0A%20%20%60total%60%2C%0A%20%20%60data_period%60%2C%0A%20%20%60data_period_notes%60%0AWHERE%0A%20%20caseless_one_of(%60agency%60%2C%20%22Department%20of%20Homeless%20Services%20(DHS)%22)%0A%20%20AND%20(caseless_one_of(%0A%20%20%20%20%20%20%20%20%20%20%20%60category%60%2C%0A%20%20%20%20%20%20%20%20%20%20%20%22Admission%20and%20entrance%20to%20DHS-administered%20shelter%20facilities%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%22Total%20number%20of%20individuals%20utilizing%20city-administered%20facilities%22%0A%20%20%20%20%20%20%20%20%20)%0A%20%20%20%20%20%20%20%20%20AND%20caseless_one_of(%0A%20%20%20%20%20%20%20%20%20%20%20%60facility_or_program_type%60%2C%0A%20%20%20%20%20%20%20%20%20%20%20%22Unduplicated%20entrants%20(households)%20to%20DHS-administered%20facilities%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%22DHS-administered%20facilities%22%0A%20%20%20%20%20%20%20%20%20))")
 
-entrants_pop_clean <- entrants_pop %>% 
+one_extra_row <- read_csv("https://data.cityofnewyork.us/resource/jiwc-ncpi.csv?$query=SELECT%0A%20%20%60agency%60%2C%0A%20%20%60category%60%2C%0A%20%20%60facility_or_program_type%60%2C%0A%20%20%60families_with_children%60%2C%0A%20%20%60adult_families%60%2C%0A%20%20%60total_families%60%2C%0A%20%20%60total_adults_in_families%60%2C%0A%20%20%60total_children%60%2C%0A%20%20%60single_men%60%2C%0A%20%20%60single_women%60%2C%0A%20%20%60runaway_and_homeless_youth%60%2C%0A%20%20%60anyone_of_another_gender%60%2C%0A%20%20%60total_single_adults%60%2C%0A%20%20%60total_adults%60%2C%0A%20%20%60total%60%2C%0A%20%20%60data_period%60%2C%0A%20%20%60data_period_notes%60%0AWHERE%0A%20%20caseless_one_of(%0A%20%20%20%20%60category%60%2C%0A%20%20%20%20%22Admission%20and%20entrance%20to%20DHS-administered%20shelter%20facilities%22%0A%20%20)%0A%20%20AND%20caseless_one_of(%0A%20%20%20%20%60facility_or_program_type%60%2C%0A%20%20%20%20%22Unduplicated%20entrants%20(Single%20Adults)%20%2F%20Eligible%20families%20to%20DHS%20Shelter%22%0A%20%20)")
+
+entrants_pop_extra <- bind_rows(entrants_pop, one_extra_row)
+
+entrants_pop_clean <- entrants_pop_extra %>% 
   mutate(across(.cols = everything(), .fns = ~as.character(str_replace_all(.x, ",|#", ""))),
          date = base::as.Date(paste0(data_period, "01"), format = "%Y%m%d"),
          category = case_when(
            facility_or_program_type == "DHS-administered facilities" ~ "population",
-           facility_or_program_type == "Unduplicated entrants (households) to DHS-administered facilities" ~ "enter"
+           facility_or_program_type == "Unduplicated entrants (households) to DHS-administered facilities" ~ "enter",
+           facility_or_program_type == "Unduplicated entrants (Single Adults) / Eligible families to DHS Shelter" ~ "enter"
          )) %>% 
   mutate_at(vars(families_with_children:data_period), ~as.numeric(if_else(.x == "<10", "0", .x))) %>% 
   mutate_at(vars(category:facility_or_program_type), ~str_trim(str_replace_all(.x, "[0-9]", ""), side = "both")) %>% 
@@ -336,7 +341,7 @@ flow_by_type <- breakout_by_type %>%
 
 flow_sum <- entrants_pop_clean %>% 
   full_join(total_exits_dhs, by = "date") %>% 
-  filter(date >= as.Date("2023-06-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
+  filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
   replace_na(list(enter = 0)) %>% 
   mutate(stayed = population - total_exits)
 
@@ -382,31 +387,30 @@ write_csv(sankey_data, "sankey.csv")
 
 #percent of DHS shelter population that exited each month, on average June to Jan
 
-5050.1250/(45714.7500+5050.1250)
+5109.7778/(45694.6667+5109.7778)
 
 #percent of DHS shelter population that exited each month to permanent housing, on average June to Jan
 
-1248.8333/(45714.7500+5050.1250)
+1307.0000/(45694.6667+5109.7778)
 
 #percent of exits with vouchers, DHS total, June to December
-exits %>% filter(housing_category == "Permanent Housing", agency == "DHS") %>% group_by(category) %>% summarize(total = sum(exits, na.rm = T)) %>% 
+exits %>% filter(housing_category == "Permanent Housing", agency == "DHS", date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% group_by(category) %>% summarize(total = sum(exits, na.rm = T)) %>% 
   adorn_percentages(denominator = "col")
 
 #53
 
 #percent of exits unknown, DHS total June to December
-dhs_category %>%  group_by(category) %>% summarize(total = sum(exits, na.rm = T)) %>% 
+dhs_category %>% filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>%  group_by(category) %>% summarize(total = sum(exits, na.rm = T)) %>% 
   adorn_percentages(denominator = "col")
 #56%
 
 #total exits unknown, DHS total June to December
 dhs_category %>% group_by(category) %>% summarize(total = sum(exits, na.rm = T)) 
-
 #30819
 
 #percent of single adults that exit unknown, DHS total, all months with SA data
 dhs_month_category %>% 
-  filter(series == "total_single_adults") %>% 
+  filter(series == "total_single_adults", date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% 
   group_by(category) %>% 
   summarise(total = sum(exits, na.rm = T)) %>% 
   adorn_percentages("col")
@@ -414,7 +418,7 @@ dhs_month_category %>%
 #Percent of families with children who exit unknown, DHS total, all months with family data
 
 dhs_month_category %>% 
-  filter(series == "families_with_children") %>% 
+  filter(series == "families_with_children", date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% 
   group_by(category) %>% 
   summarise(total = sum(exits, na.rm = T)) %>% 
   adorn_percentages("col")
