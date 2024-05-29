@@ -2,7 +2,7 @@
 
 New York City is facing a historic homelessness crisis. But getting data on how many people are using NYC shelters is complicated. This repository, built in collaboration with City Limits News, seeks to liberate data on exits from NYC Shelters, as required by Local Law 79 of 2022.
 
-It's an extension of work on the NYC Shelter Census. You can view the full project tracker and read more at [City Limits](https://citylimits.org/nyc-shelter-count/).
+It's an extension of work on the [NYC Shelter Count](https://github.com/anesta95/nyc_shelter_count). You can view the full project tracker and read more at [City Limits](https://citylimits.org/nyc-shelter-count/).
 
 The repository creates a data file categorizing all the exits from NYC homeless shelters from the [PDFs](https://www.nyc.gov/assets/operations/downloads/pdf/temporary_housing_report.pdf) that are posted monthly on the Department of Homeless Services Webpage, but overwritten each month. This repository automatically updates the dataset each month when a new report comes out.
 
