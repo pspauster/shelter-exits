@@ -1,6 +1,6 @@
 ###########just copied from the othe repo, need to edit#################
 
-name: clean_data
+name: Clean data downloaded from the temporary housing report pdf
 
 on:
   schedule:
@@ -28,6 +28,7 @@ jobs:
           r-version: '4.3.3'
       # install renv package
       - run: |-
+          sudo R CMD javareconf
           R -e 'install.packages("renv")'
           R -e 'renv::upgrade(project = ".", reload = T, prompt = F)'
       # set up cache
