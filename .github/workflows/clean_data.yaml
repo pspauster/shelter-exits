@@ -41,7 +41,7 @@ jobs:
               ${{ runner.os }}-renv-
       - run: R -e 'renv::restore()'
       # execute Rscript
-      - run: shelter_exits.R
+      - run: Rscript shelter_exits.R
       # push to git repo
       - name: Add and commit
         id: add_commit
