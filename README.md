@@ -36,7 +36,7 @@ Exit type categorizations for non-DHS agencies have not been vetted with agencie
 | category  | character   | A user-created aggregate category based on exit type descriptions, created by coder |
 | housing_category  | character   | A user-create field whether this exit would be categorized as an exit to permanent housing or not, per DHS sourcing |
 
-**Analysis**
+## Analysis
 The data in the analysis file supplies the data for the feature story, ['Exit Unknown: Where do people Go After They Exit NYC Homeless Shelters'](https://citylimits.org/2024/05/14/exit-unknown-where-do-people-go-after-leaving-nyc-homeless-shelters/) for City Limits, published May 2024.
 - Data on the monthly exits from DHS shelters comes from the DHS daily report PDFs posted to the city's website. This data excludes adults in specialized programs
 - Data on entrants to shelter and monthly shelter populations comes from the Local Law 79 (current) temporary housing assistance usage reports published on NYC's open data portal
