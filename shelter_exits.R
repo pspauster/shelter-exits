@@ -5,7 +5,7 @@ library(janitor)
 library(lubridate)
 library(xlsx)
 library(purrr)
-library(pdftools)
+#library(pdftools)
 library(stringr)
 library(dplyr)
 
