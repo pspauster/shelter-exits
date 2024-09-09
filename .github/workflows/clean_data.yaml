@@ -29,6 +29,7 @@ jobs:
       # install renv package
       - run: |-
           sudo R CMD javareconf
+          conda install -c conda-forge pkg-config
           R -e 'install.packages("renv")'
           R -e 'renv::upgrade(project = ".", reload = T, prompt = F)'
       # set up cache
