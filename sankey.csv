@@ -1,7 +1,7 @@
 value,source,dest,step_from,step_to
-4700.666666666667,Entered,Shelter,0,1
-45694.666666666664,Shelter,Stayed in system,1,2
-5109.777777777777,Shelter,Exited,1,2
-988.5555555555555,Exited,Other,2,3
-1307,Exited,Permanent Housing,2,3
-2814.222222222222,Exited,Unknown,2,3
+3882.0476190476193,Entered,Shelter,0,1
+44588.117647058825,Shelter,Stayed in system,1,2
+4674,Shelter,Exited,1,2
+734.45,Exited,Other,2,3
+1370.9,Exited,Permanent Housing,2,3
+2568.65,Exited,Unknown,2,3
