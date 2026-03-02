@@ -62,28 +62,28 @@ total_exits <- exits %>%
 total_exits_dhs <- exits %>%
   filter(agency == "DHS") %>% 
   filter(series %in% c("families_with_children", "total_single_adults", "adult_families")) %>% 
-  filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
+  #filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
   group_by(date) %>% 
   summarize(total_exits = sum(exits, na.rm = T))
 
 total_exits_series <- exits %>%
   filter(agency == "DHS") %>% 
   filter(series %in% c("families_with_children", "total_single_adults", "adult_families")) %>% 
-  filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
+  #filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
   group_by(series, date) %>% 
   summarize(total_exits = sum(exits, na.rm = T))
 
 total_exits_category_sum <- exits %>%
   filter(agency == "DHS") %>% 
   filter(series %in% c("families_with_children", "total_single_adults", "adult_families")) %>% 
-  filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
+  #filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
   group_by(date, housing_category) %>% 
   summarize(value = sum(exits, na.rm = T))
 ```
 
 ```{r}
 total_exits %>% 
-  filter(date >= "2023-04-01" & date <= "2023-11-01") %>% 
+  #filter(date >= "2023-04-01" & date <= "2023-11-01") %>% 
   ggplot()+
   geom_line(mapping = aes(x= date, y= total_exits))+
   labs(title = "The rate of exits from DHS is stable",
@@ -92,7 +92,7 @@ total_exits %>%
 
 ```{r}
 total_exits %>% 
-  filter(date >= "2023-04-01" & date <= "2023-11-01") %>% 
+  #filter(date >= "2023-04-01" & date <= "2023-11-01") %>% 
   ggplot()+
   geom_line(mapping = aes(x= date, y= cumsum(total_exits)))+
   labs(title = "The rate of exits from DHS is stable",
@@ -271,7 +271,7 @@ dhs_category <- exits %>%
   mutate(per_exits = exits/sum(exits, na.rm = T)*100)
 
 dhs_category %>% 
-  filter(date >= as.Date("2023-04-01"), date <= as.Date("2024-02-01")) %>% #update for new data
+  #filter(date >= as.Date("2023-04-01"), date <= as.Date("2024-02-01")) %>% #update for new data
   pivot_wider(-per_exits, names_from = "category", values_from = "exits") %>% 
   write_csv("exit_cat_all.csv")
 
@@ -322,6 +322,7 @@ entrants_pop_clean <- entrants_pop_extra %>%
   select(date, category, families_with_children, single_men, single_women, adult_families) %>% 
   rowwise() %>% 
   mutate(value = sum(families_with_children, single_men, single_women, adult_families, na.rm = T)) %>% 
+  distinct() %>% 
   pivot_wider(id_cols = c("date"), names_from = category, values_from = value)
 
 
@@ -341,7 +342,7 @@ flow_by_type <- breakout_by_type %>%
 
 flow_sum <- entrants_pop_clean %>% 
   full_join(total_exits_dhs, by = "date") %>% 
-  filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
+  #filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% #update this range when re-runnign with new data
   replace_na(list(enter = 0)) %>% 
   mutate(stayed = population - total_exits)
 
@@ -394,13 +395,16 @@ write_csv(sankey_data, "sankey.csv")
 1307.0000/(45694.6667+5109.7778)
 
 #percent of exits with vouchers, DHS total, June to December
-exits %>% filter(housing_category == "Permanent Housing", agency == "DHS", date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% group_by(category) %>% summarize(total = sum(exits, na.rm = T)) %>% 
+exits %>% 
+  #filter(housing_category == "Permanent Housing", agency == "DHS", date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>%
+  group_by(category) %>% summarize(total = sum(exits, na.rm = T)) %>% 
   adorn_percentages(denominator = "col")
 
 #53
 
 #percent of exits unknown, DHS total June to December
-dhs_category %>% filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>%  group_by(category) %>% summarize(total = sum(exits, na.rm = T)) %>% 
+dhs_category %>% 
+  #filter(date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>%  group_by(category) %>% summarize(total = sum(exits, na.rm = T)) %>% 
   adorn_percentages(denominator = "col")
 #56%
 
@@ -410,7 +414,7 @@ dhs_category %>% group_by(category) %>% summarize(total = sum(exits, na.rm = T))
 
 #percent of single adults that exit unknown, DHS total, all months with SA data
 dhs_month_category %>% 
-  filter(series == "total_single_adults", date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% 
+  #filter(series == "total_single_adults", date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% 
   group_by(category) %>% 
   summarise(total = sum(exits, na.rm = T)) %>% 
   adorn_percentages("col")
@@ -418,7 +422,7 @@ dhs_month_category %>%
 #Percent of families with children who exit unknown, DHS total, all months with family data
 
 dhs_month_category %>% 
-  filter(series == "families_with_children", date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% 
+  #filter(series == "families_with_children", date >= as.Date("2023-05-01"), date <= as.Date("2024-01-01")) %>% 
   group_by(category) %>% 
   summarise(total = sum(exits, na.rm = T)) %>% 
   adorn_percentages("col")
